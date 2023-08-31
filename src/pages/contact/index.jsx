@@ -13,7 +13,7 @@ const Contact = () => {
       <PageHeader
         title="Contact Us"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
+          { id: 1, name: "homes", url: "/" },
           { id: 2, name: "contact us", url: "/contact" },
         ]}
         image="/assets/img/pg2.jpg"

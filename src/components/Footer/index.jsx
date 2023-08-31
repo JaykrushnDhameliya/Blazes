@@ -17,7 +17,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                    <p>E-302, Anant Nagar, Morbi - 363641</p>
                   </div>
                 </li>
                 <li>
@@ -122,8 +122,8 @@ const Footer = ({ classText }) => {
               </div>
               <div className="copy-right">
                 <p>
-                  © 2022, Arch Template. Made with passion by
-                  <Link href="#">ThemesCamp</Link>.
+                  © 2023, Blaze Template. Made with passion by
+                  <Link href="#">Octopus Technology</Link>.
                 </p>
               </div>
             </div>

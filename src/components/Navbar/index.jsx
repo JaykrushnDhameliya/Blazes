@@ -32,11 +32,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          <Link href="/demos">
+          {/* <Link href="/demos"> */}
             <a className={`logo ${logoClass && logoClass}`}>
               <img src={appData.lightLogo} alt="logo" ref={logoRef} />
             </a>
-          </Link>
+          {/* </Link> */}
 
           <button
             className="navbar-toggler"
@@ -66,33 +66,33 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Home
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/home">
+                  <Link href="/">
                     <a className="dropdown-item">Home Default</a>
                   </Link>
-                  <Link href="/home6">
+                  {/* <Link href="/home6"> */}
                     <a className="dropdown-item">Interior Agency</a>
-                  </Link>
-                  <Link href="/home5">
+                  {/* </Link> */}
+                  {/* <Link href="/home5"> */}
                     <a className="dropdown-item">Creative Arch</a>
-                  </Link>
-                  <Link href="/home4">
+                  {/* </Link> */}
+                  {/* <Link href="/home4"> */}
                     <a className="dropdown-item">Architecture Studio</a>
-                  </Link>
-                  <Link href="/home1">
+                  {/* </Link> */}
+                  {/* <Link href="/home1"> */}
                     <a className="dropdown-item">Home Light</a>
-                  </Link>
-                  <Link href="/home2">
+                  {/* </Link> */}
+                  {/* <Link href="/home2"> */}
                     <a className="dropdown-item">Interior Light</a>
-                  </Link>
-                  <Link href="/home3">
+                  {/* </Link> */}
+                  {/* <Link href="/home3"> */}
                     <a className="dropdown-item">Architecture Light</a>
-                  </Link>
+                  {/* </Link> */}
                 </div>
               </li>
               <li className="nav-item">
-                <Link href="/about">
+                {/* <Link href="/about"> */}
                   <a className="nav-link">About</a>
-                </Link>
+                {/* </Link> */}
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
                 <span
@@ -106,18 +106,18 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   ceramic tiles
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/wallTiles">
+                  {/* <Link href="/wallTiles"> */}
                     <a className="dropdown-item">Wall Tiles</a>
-                  </Link>
-                  <Link href="/work2">
+                  {/* </Link> */}
+                  {/* <Link href="/work2"> */}
                     <a className="dropdown-item">Floor Tiles</a>
-                  </Link>
-                  <Link href="/work3">
+                  {/* </Link> */}
+                  {/* <Link href="/work3"> */}
                     <a className="dropdown-item">Parlcing</a>
-                  </Link>
-                  <Link href="/project-details">
+                   {/* </Link> */}
+                  {/* <Link href="/project-details"> */}
                     <a className="dropdown-item">Vitrtical</a>
-                  </Link>
+                   {/* </Link> */}
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -132,42 +132,42 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Senetiry Wase
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/work1">
+                  {/* <Link href="/work1"> */}
                     <a className="dropdown-item">wash basin</a>
-                  </Link>
-                  <Link href="/work2">
+                  {/* </Link> */}
+                  {/* <Link href="/work2"> */}
                     <a className="dropdown-item">1 Piec</a>
-                  </Link>
-                  <Link href="/work3">
+                  {/* </Link> */}
+                  {/* <Link href="/work3"> */}
                     <a className="dropdown-item">Closet</a>
-                  </Link>
-                  <Link href="/project-details">
+                  {/* </Link> */}
+                  {/* <Link href="/project-details"> */}
                     <a className="dropdown-item">2 Piec</a>
-                  </Link>
-                  <Link href="/work1">
+                  {/* </Link> */}
+                  {/* <Link href="/work1"> */}
                     <a className="dropdown-item">2 Piec Closet</a>
-                  </Link>
-                  <Link href="/work2">
+                  {/* </Link> */}
+                  {/* <Link href="/work2"> */}
                     <a className="dropdown-item">Wall Hung</a>
-                  </Link>
-                  <Link href="/work3">
+                  {/* </Link> */}
+                  {/* <Link href="/work3"> */}
                     <a className="dropdown-item">PWC</a>
-                  </Link>
-                  <Link href="/project-details">
+                 {/* </Link> */}
+                  {/* <Link href="/project-details"> */}
                     <a className="dropdown-item">Urinal</a>
-                  </Link>
-                  <Link href="/work1">
+                 {/* </Link> */}
+                  {/* <Link href="/work1"> */}
                     <a className="dropdown-item">Table Top</a>
-                  </Link>
-                  <Link href="/work2">
+                 {/* </Link> */}
+                  {/* <Link href="/work2"> */}
                     <a className="dropdown-item">PAN</a>
-                  </Link>
-                  <Link href="/work3">
+                 {/* </Link> */}
+                  {/* <Link href="/work3"> */}
                     <a className="dropdown-item">Seat Cover</a>
-                  </Link>
-                  <Link href="/project-details">
+                 {/* </Link> */}
+                  {/* <Link href="/project-details"> */}
                     <a className="dropdown-item">Accessories</a>
-                  </Link>
+                 {/* </Link> */}
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -182,21 +182,21 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Agriculture
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/blogs">
+                  {/* <Link href="/blogs"> */}
                     <a className="dropdown-item">Fertitijes</a>
-                  </Link>
-                  <Link href="/blog-details">
+                  {/* </Link> */}
+                  {/* <Link href="/blog-details"> */}
                     <a className="dropdown-item">Fruits</a>
-                  </Link>
-                  <Link href="/work1">
+                  {/* </Link> */}
+                  {/* <Link href="/work1"> */}
                     <a className="dropdown-item">Edible oil</a>
-                  </Link>
-                  <Link href="/work2">
+                  {/* </Link> */}
+                  {/* <Link href="/work2"> */}
                     <a className="dropdown-item">Pvc Pipes</a>
-                  </Link>
-                  <Link href="/project-details">
+                  {/* </Link> */}
+                  {/* <Link href="/project-details"> */}
                     <a className="dropdown-item">Electrics Pipes</a>
-                  </Link>
+                   {/* </Link> */}
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>
@@ -211,18 +211,18 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Food Items
                 </span>
                 <div className="dropdown-menu">
-                  <Link href="/blogs">
+                  {/* <Link href="/blogs"> */}
                     <a className="dropdown-item">Pasta</a>
-                  </Link>
-                  <Link href="/blog-details">
+                  {/* </Link> */}
+                  {/* <Link href="/blog-details"> */}
                     <a className="dropdown-item">Bread</a>
-                  </Link>
+                  {/* </Link> */}
                 </div>
               </li>
               <li className="nav-item">
-                <Link href="/contact">
+                {/* <Link href="/contact"> */}
                   <a className="nav-link">Contact</a>
-                </Link>
+                {/* </Link> */}
               </li>
             </ul>
           </div>

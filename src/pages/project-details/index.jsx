@@ -16,7 +16,7 @@ const ProjectDetails = () => {
       <PageHeader
         title="Luxury Furniture"
         fullPath={[
-          { id: 1, name: "home", url: "/" },
+          { id: 1, name: "homes", url: "/" },
           { id: 2, name: "portfolio", url: "/work1" },
           { id: 3, name: "project details", url: "/project-details" },
         ]}

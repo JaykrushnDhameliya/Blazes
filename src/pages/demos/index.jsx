@@ -91,7 +91,7 @@ const Demos = () => {
             <div className="col-lg-12 static text-center">
               <div className="capt mt-50">
                 <div className="parlx">
-                  <h1 className="mb-10">Archo Template</h1>
+                  <h1 className="mb-10">Blaze Template</h1>
                   <p className="ls10 text-u">
                     Creative Architecture Interior Template.
                   </p>
@@ -156,7 +156,7 @@ const Demos = () => {
                 </div>
 
                 <div className="col-lg-4 col-md-6 items">
-                  <Link href="/home">
+                  <Link href="/">
                     <a target="_blank">
                       <div
                         className="item-img wow fadeInUp"
@@ -334,7 +334,7 @@ const Demos = () => {
                       <span className="icon pe-7s-map-marker"></span>
                       <div className="cont">
                         <h6>Officeal Address</h6>
-                        <p>504 White St . Dawsonville, GA 30534 , New York</p>
+                        <p>E-302, Anant Nagar, Morbi - 363641</p>
                       </div>
                     </li>
                     <li>
@@ -422,8 +422,8 @@ const Demos = () => {
                   </div>
                   <div className="copy-right">
                     <p>
-                      © 2022, Arch Template. Made with passion by
-                      <Link href="#">ThemesCamp</Link>.
+                      © 2023, Blaze Template. Made with passion by
+                      <Link href="#">Octopus Technology</Link>.
                     </p>
                   </div>
                 </div>

@@ -9,7 +9,7 @@ import Testimonials1 from "../../components/Testimonials1";
 import WorkWithoutFilter from "../../components/Work-Without-Filter";
 import IntroWithVertical2 from "../../components/Intro-with-vertical2";
 
-const Home = () => {
+const Homes = () => {
   React.useEffect(() => {
     document.querySelector("body").classList.add("index3");
   });
@@ -27,4 +27,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Homes;

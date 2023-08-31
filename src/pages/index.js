@@ -1,5 +1,5 @@
-import Demos from "./demos";
+import Homes from "./homes"
 
 export default function Home() {
-  return <Demos />;
+  return <Homes />;
 }
