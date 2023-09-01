@@ -47,7 +47,7 @@ const Footer = ({ classText }) => {
                   <div className="img">
                     <Link href="/blog-details">
                       <a>
-                        <img src="/assets/img/blog/1.jpg" alt="" />
+                        <img src="/assets/img/blog/news1.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
@@ -68,7 +68,7 @@ const Footer = ({ classText }) => {
                   <div className="img">
                     <Link href="/blog-details">
                       <a>
-                        <img src="/assets/img/blog/2.jpg" alt="" />
+                        <img src="/assets/img/blog/news2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>

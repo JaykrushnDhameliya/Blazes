@@ -14,7 +14,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/assets/img/team/1.jpg" alt="" />
+                <img src="/assets/img/team/profile1.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -53,7 +53,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/assets/img/team/2.jpg" alt="" />
+                <img src="/assets/img/team/profile2.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -92,7 +92,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/assets/img/team/3.jpg" alt="" />
+                <img src="/assets/img/team/profile3.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -132,7 +132,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="/assets/img/team/4.jpg" alt="" />
+                <img src="/assets/img/team/profile4.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"

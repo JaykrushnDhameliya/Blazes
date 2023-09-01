@@ -20,7 +20,7 @@ const Blogs3 = ({ smallTitle }) => {
             <div
               className="item bg-img md-mb50 wow fadeInUp"
               data-wow-delay=".3s"
-              style={{ backgroundImage: "url(/assets/img/blog/1.jpg)" }}
+              style={{ backgroundImage: "url(/assets/img/blog/news2.jpg)" }}
             >
               <div className="cont">
                 <Link href="/blog-details">
@@ -59,7 +59,7 @@ const Blogs3 = ({ smallTitle }) => {
             <div
               className="item active bg-img md-mb50 wow fadeInUp"
               data-wow-delay=".5s"
-              style={{ backgroundImage: "url(/assets/img/blog/2.jpg)" }}
+              style={{ backgroundImage: "url(/assets/img/blog/news1.jpg)" }}
             >
               <div className="cont">
                 <Link href="/blog-details">
@@ -98,7 +98,7 @@ const Blogs3 = ({ smallTitle }) => {
             <div
               className="item bg-img wow fadeInUp"
               data-wow-delay=".8s"
-              style={{ backgroundImage: "url(/assets/img/blog/3.jpg)" }}
+              style={{ backgroundImage: "url(/assets/img/blog/news3.jpg)" }}
             >
               <div className="cont">
                 <Link href="/blog-details">

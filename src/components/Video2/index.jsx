@@ -10,7 +10,7 @@ const Video2 = () => {
   return (
     <section
       className="video bg-img parallaxie"
-      style={{ backgroundImage: "url(/assets/img/bg-vid.jpg)" }}
+      style={{ backgroundImage: "url(/assets/img/video.jpg)" }}
     >
       {typeof window !== "undefined" && (
         <ModalVideo

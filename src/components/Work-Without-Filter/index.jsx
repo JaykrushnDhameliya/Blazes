@@ -22,7 +22,7 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/2.jpg" alt="" />
+                  <img src="/assets/img/works/work1.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
@@ -36,7 +36,7 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/1.jpg" alt="" />
+                  <img src="/assets/img/works/work2.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
@@ -50,7 +50,7 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/5.jpg" alt="" />
+                  <img src="/assets/img/works/work3.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
@@ -64,7 +64,7 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/3.jpg" alt="" />
+                  <img src="/assets/img/works/work4.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
@@ -78,7 +78,7 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/4.jpg" alt="" />
+                  <img src="/assets/img/works/work5.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
