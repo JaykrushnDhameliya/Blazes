@@ -172,5 +172,4 @@ const Team3 = () => {
     </section>
   );
 };
-
 export default Team3;
