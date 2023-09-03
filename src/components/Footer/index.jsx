@@ -17,21 +17,22 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
                     <h6>Officeal Address</h6>
-                    <p>E-302, Anant Nagar, Morbi - 363641</p>
+                    <p>Office No. 1020, RK WORLD TOWER, Near Shital Park, Rajkot(Guj.)-360006 INDIA.</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-mail"></span>
                   <div className="cont">
                     <h6>Email Us</h6>
-                    <p>support@gmail.com</p>
+                    <p>export@blazeinternational.in</p>
+                    <p>www.blazeinternational.in</p>
                   </div>
                 </li>
                 <li>
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+87986451666</p>
+                    <p>+9199098 44111 | +91 90990 47677</p>
                   </div>
                 </li>
               </ul>

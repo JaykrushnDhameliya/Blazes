@@ -6,7 +6,7 @@ const Team3 = () => {
     <section className="team section-padding">
       <div className="container">
         <div className="section-head">
-          <h3>Our Team</h3>
+          <h3>Our Products</h3>
         </div>
       </div>
       <div className="container-fluid">
@@ -14,7 +14,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/assets/img/team/profile1.jpg" alt="" />
+                <img src="/assets/img/team/product6.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -37,15 +37,15 @@ const Team3 = () => {
                       <use xlinkHref="#circlePath" fill="none" />
                       <text fill="#c5a47e">
                         <textPath xlinkHref="#circlePath">
-                          CEO Manager CEO Manager CEO Manager
+                          BLAZE International BLAZE International
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>First Product</h6>
+                  <span>Food Manager</span>
                 </div>
               </div>
             </div>
@@ -53,7 +53,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
               <div className="img">
-                <img src="/assets/img/team/profile2.jpg" alt="" />
+                <img src="/assets/img/team/product2.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -76,15 +76,15 @@ const Team3 = () => {
                       <use xlinkHref="#circlePath" fill="none" />
                       <text fill="#c5a47e">
                         <textPath xlinkHref="#circlePath">
-                          Interior Designer Interior Designer Interior Designer
+                        BLAZE International BLAZE International
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Second Product</h6>
+                  <span>Food Manager</span>
                 </div>
               </div>
             </div>
@@ -92,7 +92,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
               <div className="img">
-                <img src="/assets/img/team/profile3.jpg" alt="" />
+                <img src="/assets/img/team/product3.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -115,16 +115,15 @@ const Team3 = () => {
                       <use xlinkHref="#circlePath" fill="none" />
                       <text fill="#c5a47e">
                         <textPath xlinkHref="#circlePath">
-                          Landscape Designer Landscape Designer Landscape
-                          Designer
+                        BLAZE International BLAZE International
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Third Product</h6>
+                  <span>Food Manager</span>
                 </div>
               </div>
             </div>
@@ -132,7 +131,7 @@ const Team3 = () => {
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
               <div className="img">
-                <img src="/assets/img/team/profile4.jpg" alt="" />
+                <img src="/assets/img/team/product4.jpg" alt="" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -155,15 +154,15 @@ const Team3 = () => {
                       <use xlinkHref="#circlePath" fill="none" />
                       <text fill="#c5a47e">
                         <textPath xlinkHref="#circlePath">
-                          Client Manager Client Manager Client Manager
+                         BLAZE International BLAZE International
                         </textPath>
                       </text>
                     </g>
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Ryan Hicks</h6>
-                  <span>Client Manager</span>
+                  <h6>Fourth Product</h6>
+                  <span>Food Manager</span>
                 </div>
               </div>
             </div>

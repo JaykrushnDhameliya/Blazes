@@ -4481,5 +4481,19 @@ footer {
     top: -25px; }
   .clients-brand .img {
     width: 60px; } }
-
+.card1{
+  background-color: white;
+  height: 100%;
+  padding:30px;
+}
+.card1 p{
+  color: #000;
+  font-weight: 500;
+} 
+.coreValues h6{
+  color: #ea7f1a;
+}
+.coreValues p{
+  color: white;
+}
 /* ====================== [ End Responsive ] ====================== */
