@@ -15,7 +15,7 @@ const Services7 = () => {
               <span className="icon flaticon-sketch"></span>
               <h6>ELEGANT COLLECTIONS</h6>
               <p>
-                our priority is to understand our client's unique
+                our priority is to understand our client&apos;s unique
                 needs, goals, and challenges to ensure this, we
                 offer a wide range of collections of tiles. We
                 understand that each project is unique.

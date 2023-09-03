@@ -151,7 +151,7 @@ const Blogs3 = ({ smallTitle }) => {
               <h2 style={{color:'black'}}>
                Global Network
               </h2>
-              <p>Lexus Granito's presence is avalable in more
+              <p>Lexus Granito&apos;s presence is avalable in more
                 than 18 countries.
              </p>
             </div>
