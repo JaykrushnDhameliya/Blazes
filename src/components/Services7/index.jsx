@@ -2,17 +2,15 @@ import React from "react";
 const Services7 = () => {
   return (
     <section className="services section-padding pb-0 coreValues">
-      <div className="container" style={{ 
-          backgroundImage:` url("https://img.freepik.com/free-vector/gradient-black-background-with-wavy-lines_23-2149157312.jpg")`,
-          backgroundSize: 'cover'
-        }}>
+      <div className="container">
         <div className="section-head" >
           <h3>Core Values</h3>
           </div>
         <div className="row" style={{textAlign:'center'}}>
           <div className="col-lg-4">
-            <div className="item md-mb50">
-              <span className="icon flaticon-sketch"></span>
+            <div className="item md-mb50 borderBox">
+              {/* <span className="icon flaticon-sketch"></span> */}
+              <img src="/assets/img/dimand.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>ELEGANT COLLECTIONS</h6>
               <p>
                 our priority is to understand our client&apos;s unique
@@ -23,8 +21,9 @@ const Services7 = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50">
-              <span className="icon flaticon-furniture"></span>
+            <div className="item md-mb50 borderBox">
+              {/* <span className="icon flaticon-furniture"></span> */}
+              <img src="/assets/img/ourValue.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>TRUE TO OUR VALUES</h6>
               <p>
                   We try our best for sustainable practices across
@@ -36,8 +35,9 @@ const Services7 = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item">
-              <span className="icon flaticon-home7-1"></span>
+            <div className="item borderBox">
+              {/* <span className="icon flaticon-home7-1"></span> */}
+              <img src="/assets/img/research.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>RESEARCH & DEVELOPMENT</h6>
               <p>
                   We are continuously researching and developing
