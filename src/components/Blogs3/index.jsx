@@ -138,9 +138,6 @@ const Blogs3 = ({ smallTitle }) => {
     // </section>
      <section className="services section-padding pb-0">
       <div className="container" style={{backgroundColor:'#f7f7f7',padding:'30px'}}>
-        {/* <div className="section-head"  style={{margin:'0px auto 10px'}}>
-          <h3>Global Network</h3>
-        </div> */}
         <div className="row" style={{textAlign:'center'}}>
           <div className="col-lg-4">
             <div className="item md-mb50 " style={{textAlign:'start'}}>
@@ -158,7 +155,7 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
           <div className="col-lg-4">
             <div className="item md-mb50 card1">
-              <span className="icon flaticon-furniture"></span>
+            <img src="/assets/img/calendar.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Total Size of Export 7500 Container Per Year
               </p>
@@ -166,7 +163,7 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
           <div className="col-lg-4">
             <div className="item card1">
-              <span className="icon flaticon-home7-1"></span>
+            <img src="/assets/img/cargo-ship.png" alt="1" style={{width:'27%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Hienest Exporter Since Last 8 Year
               </p>
@@ -176,7 +173,7 @@ const Blogs3 = ({ smallTitle }) => {
         <div className="row" style={{textAlign:'center',marginTop:'15px'}}>
           <div className="col-lg-4">
             <div className="item md-mb50 card1">
-              <span className="icon flaticon-sketch"></span>
+            <img src="/assets/img/global-shipping.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Exporting to More than 35+ Countries
               </p>
@@ -184,7 +181,7 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
           <div className="col-lg-4">
             <div className="item md-mb50 card1">
-              <span className="icon flaticon-furniture"></span>
+            <img src="/assets/img/iso.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Lexus Granito is ISO Certified Company
               </p>
@@ -192,7 +189,7 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
           <div className="col-lg-4">
             <div className="item card1">
-              <span className="icon flaticon-home7-1"></span>
+            <img src="/assets/img/bestQuality.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Lexus Granito is Provide Best Quality
               </p>
