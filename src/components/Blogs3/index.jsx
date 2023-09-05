@@ -137,18 +137,18 @@ const Blogs3 = ({ smallTitle }) => {
     //   </div>
     // </section>
      <section className="services section-padding pb-0">
-      <div className="container" style={{backgroundColor:'#f7f7f7',padding:'30px'}}>
+      <div className="container" style={{backgroundColor:'black',padding:'30px', borderBottom:'0px'}}>
         <div className="row" style={{textAlign:'center'}}>
           <div className="col-lg-4">
             <div className="item md-mb50 " style={{textAlign:'start'}}>
               <div style={{display:'flex'}}>
-                <hr style={{width:'35px',borderWidth:'2px',color:'black'}}/>
-                <p style={{color:'black',margin:'0 0 0 10px',fontWeight:500}}>Export</p>
+                <hr style={{width:'35px',borderWidth:'2px',color:'white'}}/>
+                <p style={{color:'white',margin:'0 0 0 10px',fontWeight:500}}>Export</p>
               </div>
-              <h2 style={{color:'black'}}>
+              <h2 style={{color:'white'}}>
                Global Network
               </h2>
-              <p>Lexus Granito&apos;s presence is avalable in more
+              <p style={{color:'white'}}>Lexus Granito&apos;s presence is avalable in more
                 than 18 countries.
              </p>
             </div>

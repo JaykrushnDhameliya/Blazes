@@ -4482,18 +4482,23 @@ footer {
   .clients-brand .img {
     width: 60px; } }
 .card1{
-  background-color: white;
+  background-color: #c5a47e;
   height: 100%;
   padding:30px;
 }
   .card1:hover{
-  background-color: #b2c48c;
+  background-color: #dd5826 ;
   box-shadow: 0px 9px 19px darkcyan;
+  color: white;
 }
+.card1:hover p{
+  color: white;
+} 
 .card1 p{
   color: #000;
   font-weight: 500;
 } 
+
 .coreValues h6{
   color: #ea7f1a;
 }

@@ -2,7 +2,7 @@ import React from "react";
 const Services7 = () => {
   return (
     <section className="services section-padding pb-0 coreValues">
-      <div className="container">
+      <div className="container" style={{borderBottom:'0px'}}>
         <div className="section-head" >
           <h3>Core Values</h3>
           </div>
