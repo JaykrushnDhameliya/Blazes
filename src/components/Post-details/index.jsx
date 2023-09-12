@@ -11,18 +11,18 @@ const PackingDetails = () => {
   }, []);
   return (
     <>
-      <div class="fp-tableCell" style={{padding:'30px 60px'}}>
-   <div class="block-frame-offset-relative">
-      <div class="text-center padding-top-30-xs padding-bottom-30-sm">
-         <h2 class="info-window-title text-uppercase"><strong class="text-weight-700">Packing</strong> Details</h2>
-         <hr class="sep-red-short hidden-xs"/>
+      <div className="fp-tableCell" style={{padding:'30px 60px'}}>
+   <div className="block-frame-offset-relative">
+      <div className="text-center padding-top-30-xs padding-bottom-30-sm">
+         <h2 className="info-window-title text-uppercase"><strong className="text-weight-700">Packing</strong> Details</h2>
+         <hr className="sep-red-short hidden-xs"/>
       </div>
       <div>
-         <div class="row">
-            <div class="col-md-12 pack1">
+         <div className="row">
+            <div className="col-md-12 pack1">
                <h3>Ceramic Wall Tiles</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -126,8 +126,8 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Ceramic Floor Tiles</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -181,8 +181,8 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Full Body Vitrified Tiles</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -224,8 +224,8 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Porcelain Tiles ( GVT / PGVT )</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -291,8 +291,8 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Double Charged Vitrified Tiles</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -349,8 +349,8 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Porcelain Slab</h3>
-               <div class="table-responsive">
-                  <table class="table table-hover table-bordered">
+               <div className="table-responsive">
+                  <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
                            <th style={{"width":"5%"}}>Tile Size mm</th>
@@ -421,7 +421,7 @@ const PackingDetails = () => {
          </div>
       </div>
    </div>
-   <span class="rqs-quadraslab_icon_font_angledown section-arrow bouncing scroll-section-anchor text-red hidden-xs"></span>
+   <span className="rqs-quadraslab_icon_font_angledown section-arrow bouncing scroll-section-anchor text-red hidden-xs"></span>
 </div>
     </>
   );
