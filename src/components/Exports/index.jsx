@@ -36,7 +36,7 @@ const Exports = () => {
                            <tr>
                               <th><img src="https://bhabhaexports.com/img/icon/e3.png"/></th>
                               <th>
-                                 <p className="section-text margin-bottom-25-xs text-white margin-bottom-50-xl"><strong>PRIVATE LABELING</strong><br/>We provide private labeling according to customer requirement which helps customer's brand to grown in their market<br/>we can do private labeling on sanitary product also</p>
+                                 <p className="section-text margin-bottom-25-xs text-white margin-bottom-50-xl"><strong>PRIVATE LABELING</strong><br/>We provide private labeling according to customer requirement which helps customer&apos;s brand to grown in their market<br/>we can do private labeling on sanitary product also</p>
                               </th>
                            </tr>
                            <tr>
