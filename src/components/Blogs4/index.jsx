@@ -17,7 +17,7 @@ const Blogs4 = () => {
                 <img src="/assets/img/blog/1.jpg" alt="" />
 
                 <div className="tag">
-                  <Link href="/blog-details">Branding</Link>
+                  <Link href="/packing-details">Branding</Link>
                 </div>
               </div>
               <div className="cont">
@@ -27,11 +27,11 @@ const Blogs4 = () => {
                   </h6>
                 </div>
                 <h5>
-                  <Link href="/blog-details">
+                  <Link href="/packing-details">
                     <a>How to use solid color combine with simple furnitures</a>
                   </Link>
                 </h5>
-                <Link href="/blog-details">
+                <Link href="/packing-details">
                   <a className="more">Read More</a>
                 </Link>
               </div>
@@ -43,7 +43,7 @@ const Blogs4 = () => {
                 <img src="/assets/img/blog/2.jpg" alt="" />
 
                 <div className="tag">
-                  <Link href="/blog-details">Branding</Link>
+                  <Link href="/packing-details">Branding</Link>
                 </div>
               </div>
               <div className="cont">
@@ -53,11 +53,11 @@ const Blogs4 = () => {
                   </h6>
                 </div>
                 <h5>
-                  <Link href="/blog-details">
+                  <Link href="/packing-details">
                     <a>Double rectangle houses from old containers</a>
                   </Link>
                 </h5>
-                <Link href="/blog-details">
+                <Link href="/packing-details">
                   <a className="more">Read More</a>
                 </Link>
               </div>
@@ -69,7 +69,7 @@ const Blogs4 = () => {
                 <img src="/assets/img/blog/3.jpg" alt="" />
 
                 <div className="tag">
-                  <Link href="/blog-details">Branding</Link>
+                  <Link href="/packing-details">Branding</Link>
                 </div>
               </div>
               <div className="cont">
@@ -79,11 +79,11 @@ const Blogs4 = () => {
                   </h6>
                 </div>
                 <h5>
-                  <Link href="/blog-details">
+                  <Link href="/packing-details">
                     <a>Double rectangle houses from old containers</a>
                   </Link>
                 </h5>
-                <Link href="/blog-details">
+                <Link href="/packing-details">
                   <a className="more">Read More</a>
                 </Link>
               </div>

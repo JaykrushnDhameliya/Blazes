@@ -23,7 +23,7 @@ const Blogs3 = ({ smallTitle }) => {
     //           style={{ backgroundImage: "url(/assets/img/blog/news2.jpg)" }}
     //         >
     //           <div className="cont">
-    //             <Link href="/blog-details">
+    //             <Link href="/packing-details">
     //               <a className="date">
     //                 <span>
     //                   <i>06</i> August
@@ -36,19 +36,19 @@ const Blogs3 = ({ smallTitle }) => {
     //                   <span>Admin</span>
     //                 </a>
     //               </Link>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 <a className="tag">
     //                   <span>WordPress</span>
     //                 </a>
     //               </Link>
     //             </div>
     //             <h6>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 Double rectangle houses from old containers.
     //               </Link>
     //             </h6>
     //             <div className="btn-more">
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 <a className="simple-btn">Read More</a>
     //               </Link>
     //             </div>
@@ -62,7 +62,7 @@ const Blogs3 = ({ smallTitle }) => {
     //           style={{ backgroundImage: "url(/assets/img/blog/news1.jpg)" }}
     //         >
     //           <div className="cont">
-    //             <Link href="/blog-details">
+    //             <Link href="/packing-details">
     //               <a className="date">
     //                 <span>
     //                   <i>06</i> August
@@ -75,19 +75,19 @@ const Blogs3 = ({ smallTitle }) => {
     //                   <span>Admin</span>
     //                 </a>
     //               </Link>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 <a className="tag">
     //                   <span>WordPress</span>
     //                 </a>
     //               </Link>
     //             </div>
     //             <h6>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 How to use solid color combine with simple furnitures.
     //               </Link>
     //             </h6>
     //             <div className="btn-more">
-    //               <Link href="/blog-details" className="simple-btn">
+    //               <Link href="/packing-details" className="simple-btn">
     //                 Read More
     //               </Link>
     //             </div>
@@ -101,7 +101,7 @@ const Blogs3 = ({ smallTitle }) => {
     //           style={{ backgroundImage: "url(/assets/img/blog/news3.jpg)" }}
     //         >
     //           <div className="cont">
-    //             <Link href="/blog-details">
+    //             <Link href="/packing-details">
     //               <a className="date">
     //                 <span>
     //                   <i>06</i> August
@@ -114,19 +114,19 @@ const Blogs3 = ({ smallTitle }) => {
     //                   <span>Admin</span>
     //                 </a>
     //               </Link>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 <a className="tag">
     //                   <span>WordPress</span>
     //                 </a>
     //               </Link>
     //             </div>
     //             <h6>
-    //               <Link href="/blog-details">
+    //               <Link href="/packing-details">
     //                 How to use solid color combine with simple furnitures.
     //               </Link>
     //             </h6>
     //             <div className="btn-more">
-    //               <Link href="/blog-details" className="simple-btn">
+    //               <Link href="/packing-details" className="simple-btn">
     //                 Read More
     //               </Link>
     //             </div>
@@ -137,7 +137,7 @@ const Blogs3 = ({ smallTitle }) => {
     //   </div>
     // </section>
      <section className="services section-padding pb-0">
-      <div className="container" style={{backgroundColor:'black',padding:'30px', borderBottom:'0px'}}>
+      <div className="container" style={{padding:'30px', borderBottom:'0px'}}>
         <div className="row" style={{textAlign:'center'}}>
           <div className="col-lg-4">
             <div className="item md-mb50 " style={{textAlign:'start'}}>

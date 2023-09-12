@@ -46,7 +46,7 @@ const Footer = ({ classText }) => {
               <ul>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a>
                         <img src="/assets/img/blog/news1.jpg" alt="" />
                       </a>
@@ -54,7 +54,7 @@ const Footer = ({ classText }) => {
                   </div>
 
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a>
                         <p>
                           The Start-Up Ultimate Guide to Make Your WordPress
@@ -67,14 +67,14 @@ const Footer = ({ classText }) => {
                 </li>
                 <li>
                   <div className="img">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a>
                         <img src="/assets/img/blog/news2.jpg" alt="" />
                       </a>
                     </Link>
                   </div>
                   <div className="sm-post">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a>
                         <p>
                           The Start-Up Ultimate Guide to Make Your WordPress

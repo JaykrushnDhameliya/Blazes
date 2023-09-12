@@ -18,7 +18,7 @@ const Blogs5 = () => {
               <div className="cont">
                 <div>
                   <div className="info">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a className="date">
                         <span>
                           <i>06</i> August
@@ -26,19 +26,19 @@ const Blogs5 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a className="tag">
                         <span>WordPress</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       How to use solid color combine with simple furnitures.
                     </Link>
                   </h5>
                   <div className="btn-more">
-                    <Link href="/blog-details" className="simple-btn">
+                    <Link href="/packing-details" className="simple-btn">
                       Read More
                     </Link>
                   </div>
@@ -54,7 +54,7 @@ const Blogs5 = () => {
               <div className="cont">
                 <div>
                   <div className="info">
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a className="date">
                         <span>
                           <i>06</i> August
@@ -62,19 +62,19 @@ const Blogs5 = () => {
                       </a>
                     </Link>
                     <span>/</span>
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       <a className="tag">
                         <span>WordPress</span>
                       </a>
                     </Link>
                   </div>
                   <h5>
-                    <Link href="/blog-details">
+                    <Link href="/packing-details">
                       How to use solid color combine with simple furnitures.
                     </Link>
                   </h5>
                   <div className="btn-more">
-                    <Link href="/blog-details" className="simple-btn">
+                    <Link href="/packing-details" className="simple-btn">
                       Read More
                     </Link>
                   </div>

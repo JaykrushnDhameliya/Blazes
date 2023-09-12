@@ -33,15 +33,15 @@ const Blogs2 = () => {
                 </div>
                 <div className="cont">
                   <div className="info">
-                    <Link href="/blog-details">{blog.by}</Link>
-                    <Link href="/blog-details">{blog.date}</Link>
+                    <Link href="/packing-details">{blog.by}</Link>
+                    <Link href="/packing-details">{blog.date}</Link>
                   </div>
 
                   <h5 className="playfont">
-                    <Link href="/blog-details">{blog.title}</Link>
+                    <Link href="/packing-details">{blog.title}</Link>
                   </h5>
 
-                  <Link href="/blog-details">
+                  <Link href="/packing-details">
                     <a className="more">
                       <span className="custom-font">Read More</span>
                     </a>

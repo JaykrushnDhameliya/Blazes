@@ -20,7 +20,7 @@ const BlogsList = () => {
                 {Blog1Data.map((item) => (
                   <div className="item mb-80" key={item.id}>
                     <div className="img">
-                      <Link href="/blog-details">
+                      <Link href="/packing-details">
                         <a>
                           <img
                             src={item.image}
@@ -33,7 +33,7 @@ const BlogsList = () => {
                     <div className="content">
                       <div className="date">
                         <h5>
-                          <Link href="/blog-details">
+                          <Link href="/packing-details">
                             <a>
                               <span className="num">{item.date2[1]}</span>
                               <span>{item.date2[0]}</span>
@@ -48,7 +48,7 @@ const BlogsList = () => {
                           <Link href="#">Archo</Link>
                         </div>
                         <h4 className="title">
-                          <Link href="/blog-details">
+                          <Link href="/packing-details">
                             Build a Beautiful Blog With Ease
                           </Link>
                         </h4>
@@ -57,7 +57,7 @@ const BlogsList = () => {
                           learning, studying, sacrifice and most of all, love of
                           what you are doing.
                         </p>
-                        <Link href="/blog-details">
+                        <Link href="/packing-details">
                           <a className="more">Read More</a>
                         </Link>
                       </div>

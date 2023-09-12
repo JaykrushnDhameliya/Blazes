@@ -38,10 +38,10 @@ const Blogs1 = () => {
                   </div>
 
                   <h5 className="playfont">
-                    <Link href="/blog-details">{blog.title}</Link>
+                    <Link href="/packing-details">{blog.title}</Link>
                   </h5>
 
-                  <Link href="/blog-details">
+                  <Link href="/packing-details">
                     <a className="more">
                       <span>Read More</span>
                     </a>

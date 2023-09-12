@@ -1,9 +1,9 @@
 import React from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
-import PostDetails from "../../components/Post-details";
+import PackingDetails from "../../components/Post-details";
 
-const BlogDetails = () => {
+const packingDetails = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
@@ -13,13 +13,13 @@ const BlogDetails = () => {
         title="post details"
         fullPath={[
           { id: 1, name: "homes", url: "/" },
-          { id: 2, name: "blogs", url: "/blogs" },
-          { id: 3, name: "post details", url: "/blog-details" },
+          { id: 3, name: "packing details", url: "/packing-details" },
         ]}
+        image="/assets/img/Tiles.jpg"
       />
-      <PostDetails />
+      <PackingDetails />
     </MainLayout>
   );
 };
 
-export default BlogDetails;
+export default packingDetails;
