@@ -13,7 +13,7 @@ const PackingDetail = () => {
         title="packing details"
         fullPath={[
           { id: 1, name: "homes", url: "/" },
-          { id: 3, name: "packing details", url: "/packing-details" },
+          { id: 3, name: "packing details", url: "/packing-details" }
         ]}
         image="/assets/img/Tiles.jpg"
       />
