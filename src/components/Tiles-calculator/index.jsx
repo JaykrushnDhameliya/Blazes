@@ -47,7 +47,7 @@ const TilesCalculator = () => {
 										</span>	
 									</div>
 									<div className="btn-default seo-anim btn-small cus-btn" style={{opacity: 1, transform: "translate(0px, 0px)"}}>
-										<span name="Button1" id="Button1" onclick="calculate()"><a><span>Calculate</span></a></span>
+										<span name="Button1" id="Button1"><a><span>Calculate</span></a></span>
 									</div>						
 								</form>
 							</div>
