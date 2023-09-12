@@ -3,7 +3,7 @@ import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import Exports from "../../components/Exports";
 
-const exportDetails = () => {
+const ExportDetails = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
@@ -22,4 +22,4 @@ const exportDetails = () => {
   );
 };
 
-export default exportDetails;
+export default ExportDetails;

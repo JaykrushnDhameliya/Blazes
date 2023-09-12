@@ -3,14 +3,14 @@ import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
 import PackingDetails from "../../components/Post-details";
 
-const packingDetails = () => {
+const PackingDetail = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
   return (
     <MainLayout>
       <PageHeader
-        title="post details"
+        title="packing details"
         fullPath={[
           { id: 1, name: "homes", url: "/" },
           { id: 3, name: "packing details", url: "/packing-details" },
@@ -22,4 +22,4 @@ const packingDetails = () => {
   );
 };
 
-export default packingDetails;
+export default PackingDetail;
