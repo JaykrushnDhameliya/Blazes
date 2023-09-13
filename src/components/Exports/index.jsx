@@ -11,10 +11,30 @@ const Exports = () => {
   }, []);
   return (
     <>
-   <div className="block-frame-sm block-frame-offset block-cover-img" style={{padding:'30px 60px'}}>
+   <div className="block-frame-sm block-frame-offset block-cover-img">
       <div className="container-full block-full-height-sm">
          <div className="row block-full-height-sm">
-            <div className="col-md-7 block-half-height-sm block-full-height-md bgd-dark-grey">
+              <div className="col-md- block-half-height-sm block-full-height-md bgd-dark-grey">
+               <div className="vcenter-outer">
+                  <div className="vcenter-inner">
+                     <div className="col-lg-12 col-lg-offset-3 text-center">
+                        <h2 className="info-window-title text-white text-uppercase" style={{textAlign:'start',marginLeft:'30px'}}><strong className="text-weight-700">Global</strong> Market</h2>
+                        <p className="section-text-p margin-bottom-25-xs text-white margin-bottom-50-xl">We deal with 100% export quality checked products that are self verified for exports by our export quality department.While it is true that Bhabha Exports still retains many of the values of a traditional business structure, something that extends to the relationship with its clients, so it is still betting by the same strong and determined exporting vocation that has guided its steps for more than twenty years. At present, In addition, our products are present in more than 100+ countries spread all over the world.</p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div className="clearfix"></div>
+      </div>
+   </div>
+   <div className="block-frame-sm block-frame-offset block-cover-img">
+      <div className="container-full block-full-height-sm">
+         <div className="row block-full-height-sm">
+            <div id="adv_bgd_img_3" className="col-md-6 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs">
+               <img className="hidden-sm hidden-md hidden-lg" src="/assets/img/blazeExport.png" alt="img"/>
+            </div>
+             <div className="col-md-6 block-half-height-sm block-full-height-md bgd-dark-grey">
                <div className="vcenter-outer">
                   <div className="vcenter-inner">
                      <div className="col-lg-11 col-lg-offset-2 expt1">
@@ -46,30 +66,6 @@ const Exports = () => {
                               </th>
                            </tr>
                         </tbody></table>
-                     </div>
-                  </div>
-               </div>
-            </div>
-            <div id="adv_bgd_img_3" className="col-md-5 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs">
-               <img className="hidden-sm hidden-md hidden-lg" src='/assets/img/tiles2.jpg'/>
-            </div>
-         </div>
-         <div className="clearfix"></div>
-      </div>
-   </div>
-   <div className="block-frame-sm block-frame-offset block-cover-img" style={{padding:'30px 60px'}}>
-      <div className="container-full block-full-height-sm">
-         <div className="row block-full-height-sm">
-            <div id="adv_bgd_img_3" className="col-md-7 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs">
-               <img className="hidden-sm hidden-md hidden-lg" src="/assets/img/boat.jpg"/>
-            </div>
-            <div className="col-md-5 block-half-height-sm block-full-height-md bgd-dark-grey">
-               <div className="vcenter-outer">
-                  <div className="vcenter-inner">
-                     <div className="col-lg-11 col-lg-offset-3 text-center">
-                        <h2 className="info-window-title text-white text-uppercase"><strong className="text-weight-700">Global</strong> Market</h2>
-                        <hr className="sep-red"/>
-                        <p className="section-text margin-bottom-25-xs text-white margin-bottom-50-xl">We deal with 100% export quality checked products that are self verified for exports by our export quality department. <br/>While it is true that Bhabha Exports still retains many of the values of a traditional business structure, something that extends to the relationship with its clients, so it is still betting by the same strong and determined exporting vocation that has guided its steps for more than twenty years. At present, In addition, our products are present in more than 100+ countries spread all over the world.</p>
                      </div>
                   </div>
                </div>

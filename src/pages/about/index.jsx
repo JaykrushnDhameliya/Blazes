@@ -6,6 +6,8 @@ import Services3 from "../../components/Services3";
 import Skills2 from "../../components/Skills2";
 import Testimonials1 from "../../components/Testimonials1";
 import Team2 from "../../components/Team2";
+import MdDetails from "../../components/Md-datails";
+import OurCompany from "../../components/Our-Company";
 
 const About = () => {
   React.useEffect(() => {
@@ -22,10 +24,12 @@ const About = () => {
         ]}
       />
       <AboutUs4 />
-      <Services3 bigTitle grid />
-      <Testimonials1 bigTitle />
-      <Team2 />
-      <Skills2 />
+      {/* <Services3 bigTitle grid /> */}
+      {/* <Testimonials1 bigTitle /> */}
+      {/* <Team2 /> */}
+      {/* <Skills2 /> */}
+      <OurCompany/>
+      <MdDetails/>
     </MainLayout>
   );
 };

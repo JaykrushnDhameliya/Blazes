@@ -139,10 +139,10 @@ const Blogs3 = ({ smallTitle }) => {
      <section className="services section-padding pb-0">
       <div className="container" style={{padding:'30px', borderBottom:'0px'}}>
         <div className="row" style={{textAlign:'center'}}>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item md-mb50 " style={{textAlign:'start'}}>
               <div style={{display:'flex'}}>
-                <hr style={{width:'35px',borderWidth:'2px',color:'white'}}/>
+                <hr style={{width:'35px',borderWidth:'2px',borderColor:'white'}}/>
                 <p style={{color:'white',margin:'0 0 0 10px',fontWeight:500}}>Export</p>
               </div>
               <h2 style={{color:'white'}}>
@@ -153,7 +153,7 @@ const Blogs3 = ({ smallTitle }) => {
              </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item md-mb50 card1">
             <img src="/assets/img/calendar.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
@@ -161,7 +161,7 @@ const Blogs3 = ({ smallTitle }) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item card1">
             <img src="/assets/img/cargo-ship.png" alt="1" style={{width:'27%',margin:'23px 0',padding:'10px'}}/>
               <p>
@@ -171,7 +171,7 @@ const Blogs3 = ({ smallTitle }) => {
           </div>
         </div>
         <div className="row" style={{textAlign:'center',marginTop:'15px'}}>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item md-mb50 card1">
             <img src="/assets/img/global-shipping.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
@@ -179,19 +179,19 @@ const Blogs3 = ({ smallTitle }) => {
               </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item md-mb50 card1">
             <img src="/assets/img/iso.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
-              Lexus Granito is ISO Certified Company
+              Blaze international is ISO Certified Company
               </p>
             </div>
           </div>
-          <div className="col-lg-4">
+          <div className="col-lg-4 cardBox">
             <div className="item card1">
             <img src="/assets/img/bestQuality.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
-              Lexus Granito is Provide Best Quality
+              Blaze international is Provide Best Quality
               </p>
             </div>
           </div>

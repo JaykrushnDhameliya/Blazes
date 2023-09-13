@@ -8,16 +8,15 @@ import React from "react";
         <div className="row">
           <div className="col-lg-5 exp">
             <div className="mb-50">
-              <h6 className="fw-100 text-u ls10 main-color mb-10">About Us</h6>
-              <h3 className="fw-400 text-u ls4">Our Comapny</h3>
+              <h6 className="fw-100 text-u ls10 main-color mb-10">Welcome To</h6>
+              <h5 className="fw-400 text-u ls4">The Innovative & Excellence</h5>
             </div>
             <div className="box">
-              <h2 className="fz-40 fw-600 ls1 mb-20">
-                25 years <br /> of Experience
-              </h2>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium, totam rem aperiam
+              <h4 className="fz-40 fw-600 ls1 mb-20">
+                Blaze International
+              </h4>
+              <p style={{lineHeight:'1.4'}}>
+                Nestled at the crossroads of innovation and quality, Blaze International champions the export of a diverse portfolio. From the exquisite craftsmanship of ceramic tiles to the organic richness of agricultural products, we bridge continents. Our PVC products, synonymous with durability, and the freshest of fruits, curated for global palettes, underscore our commitment to excellence. Blaze International where the world meets our standards
               </p>
             </div>
           </div>
