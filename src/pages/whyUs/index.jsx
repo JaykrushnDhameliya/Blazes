@@ -21,5 +21,4 @@ const WhyUs = () => {
     </MainLayout>
   );
 };
-
 export default WhyUs;
