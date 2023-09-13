@@ -75,9 +75,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <Link href="/about">
                     <a className="dropdown-item">About</a>
                   </Link>
-                  {/* <Link href="/work2"> */}
+                  <Link href="/whyUs">
                     <a className="dropdown-item">Why Us</a>
-                  {/* </Link> */}
+                  </Link>
                 </div>
               </li>
               <li className="nav-item dropdown" onClick={handleDropdown}>

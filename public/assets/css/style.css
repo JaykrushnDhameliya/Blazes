@@ -4885,6 +4885,31 @@ hr {
 .cardBox{
   margin:10px 0;
 }
+.bgwhyus{
+  width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    padding: 10px;
+    border: 2px solid #dd5826;
+}
+.whyus-ul{
+  margin: 20px 0 20px 75px;
+}
+.whyus-ul li{
+  margin: 10px auto;
+}
+.whyus-ul li::before{
+  content: "\2022";
+  color: #dd5826;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.whyus-fast{
+  color: #dd5826;
+  font-family: Pe-icon-7-stroke !important;
+}
 @media screen and (min-width: 480px) {
     .col-sm-1_2 {
     width: 50%;
