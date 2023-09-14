@@ -2,29 +2,36 @@
     {
         "id": 1,
         "image": "/assets/img/team/team1.jpg",
-        "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
+        "content": "We would  like to thank Blaze in particular for giving a wealth of information on the various tiles, assisting us in selecting appropriate tiles, and assuring fast delivery.",
         "username": "Mitchl Jhon",
         "usertitle": "Envato Customer"
     },
     {
       "id": 2,
       "image": "/assets/img/team/team2.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
+      "content": "We were quite pleased with the high level of service provided by Blaze International and would definitely recommend them.",
       "username": "Jane Smith",
       "usertitle": "Envato Customer"
     },
     {
       "id": 3,
       "image": "/assets/img/team/team3.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
+      "content": "We found Blaze International to be of the finest quality in every part of our business with them. They recently presented us with a large selection of tiles for our new construction.",
       "username": "Peter Jefferson",
       "usertitle": "Envato Customer"
     },
     {
       "id": 4,
       "image": "/assets/img/team/team4.jpg",
-      "content": "I just love their design for all stunning details. You must know what can you do for a project before taking it, but with Archo, the sky is the limit.",
+      "content": "I just wanted to express my gratitude for your assistance with the qrax wall tiles that I purchased. Despite the fact that it was a modest order, you were all quite helpful. When I redo my kitchen and bathroom, I will surely return!",
       "username": "Mitchl Jhon",
+      "usertitle": "Envato Customer"
+    },
+    {
+      "id": 5,
+      "image": "/assets/img/team/team2.jpg",
+      "content": "Everything worked out perfectly. Thank you for your quick response. I will gladly suggest you.",
+      "username": "Jane Smith",
       "usertitle": "Envato Customer"
     }
 ]

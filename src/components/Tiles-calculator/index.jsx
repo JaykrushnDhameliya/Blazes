@@ -15,8 +15,8 @@ const TilesCalculator = () => {
       <section className="section seo image-items" style={{padding:'30px 60px'}}>
                 <div className="container">
                     <div className="row items">
-                        <div className="col-md-2_3 offset-md-1_3">
-                            <div className="section-heading">
+                        <div className="w-100 py-5">
+                            <div >
                                 <h2>Tiles Calculator</h2>
                                 <div className="sh-line" style={{transformOrigin: '458.394px 0.5px', transform: "translate(0px, 0px)"}}></div>
                             </div>

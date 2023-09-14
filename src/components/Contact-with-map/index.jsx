@@ -5,7 +5,7 @@ const ContactWithMap = () => {
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-6 map-box">
+        <div className="col-lg-6 map-box px-5">
           <iframe src={appData.mapIframe}></iframe>
         </div>
         <div className="col-lg-6 form">

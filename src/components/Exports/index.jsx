@@ -1,14 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from "react";
-import Link from "next/link";
-import thumparallaxUp from "../../common/thumparallaxUp";
 
 const Exports = () => {
-  React.useEffect(() => {
-    setTimeout(() => {
-      if (window.simpleParallax) thumparallaxUp();
-    }, 1000);
-  }, []);
   return (
     <>
    <div className="block-frame-sm block-frame-offset block-cover-img">
@@ -17,9 +10,9 @@ const Exports = () => {
               <div className="col-md- block-half-height-sm block-full-height-md bgd-dark-grey">
                <div className="vcenter-outer">
                   <div className="vcenter-inner">
-                     <div className="col-lg-12 col-lg-offset-3 text-center">
-                        <h2 className="info-window-title text-white text-uppercase" style={{textAlign:'start',marginLeft:'30px'}}><strong className="text-weight-700">Global</strong> Market</h2>
-                        <p className="section-text-p margin-bottom-25-xs text-white margin-bottom-50-xl">We deal with 100% export quality checked products that are self verified for exports by our export quality department.While it is true that Bhabha Exports still retains many of the values of a traditional business structure, something that extends to the relationship with its clients, so it is still betting by the same strong and determined exporting vocation that has guided its steps for more than twenty years. At present, In addition, our products are present in more than 100+ countries spread all over the world.</p>
+                     <div className="col-lg-12 col-lg-offset-3 text-center d-flex flex-column align-items-center">
+                        <h2 className="info-window-title text-white text-uppercase" style={{marginLeft:'30px'}}><strong className="text-weight-700">Global</strong> Market</h2>
+                        <p className="section-text-p margin-bottom-25-xs text-white margin-bottom-50-xl global-market" >We deal with 100% export quality checked products that are self verified for exports by our export quality department.While it is true that Blaze International still retains many of the values of a traditional business structure, something that extends to the relationship with its clients, so it is still betting by the same strong and determined exporting vocation that has guided its steps for more than twenty years. At present, In addition, our products are present in more than 100+ countries spread all over the world.</p>
                      </div>
                   </div>
                </div>

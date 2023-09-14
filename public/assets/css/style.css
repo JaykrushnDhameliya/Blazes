@@ -166,7 +166,7 @@ a, span {
   font-family: 'Playfair Display', serif; }
 
 .main-color {
-  color: #c5a47e !important; }
+  color: #dd5826 !important; }
 
 .bg-gray {
   background-color: #f8f4f3; }
@@ -905,6 +905,7 @@ body {
   height: 6px;
   z-index: 10000001;
   background-color: #dd5826;
+  /* background-image: url(/assets/img/Arrow.png); */
   -webkit-transition: width .3s ease-in-out,
  height .3s ease-in-out,
  margin .3s ease-in-out,
@@ -1256,7 +1257,7 @@ body {
     opacity: .9; }
     .navbar .navbar-nav .dropdown-item:hover {
       background: transparent;
-      color: #c5a47e; }
+      color: #dd5826; }
   .navbar .dropdown-menu {
     display: block;
     opacity: 0;
@@ -1270,7 +1271,7 @@ body {
     transition: all .4s;
     background: #212121;
     min-width: 11rem;
-    border-top: 2px solid #c5a47e !important; }
+    border-top: 2px solid #dd5826 !important; }
     .navbar .dropdown-menu.show {
       opacity: 1;
       visibility: visible;
@@ -1288,7 +1289,7 @@ body {
         content: '';
         width: 0px;
         height: 1px;
-        background: #c5a47e;
+        background: #dd5826;
         position: absolute;
         left: 10px;
         top: 50%;
@@ -1889,7 +1890,7 @@ body {
       left: -30px;
       width: 100%;
       height: 100%;
-      border: 4px solid #c5a47e;
+      border: 4px solid #dd5826;
       z-index: -1; }
     .about .exp .box:before {
       content: '';
@@ -1923,7 +1924,7 @@ body {
         padding-top: 5px;
         margin-right: 25px; }
       .about .img .feat .item h5 {
-        color: #c5a47e; }
+        color: #dd5826; }
       .about .img .feat .item h6 {
         font-size: 15px;
         font-weight: 400; }
@@ -2265,7 +2266,7 @@ body {
     margin-bottom: 10px; }
     .numbers .item h3 span {
       font-size: 60px;
-      color: #c5a47e; }
+      color: #dd5826; }
     .numbers .item h3 i {
       font-size: 30px;
       font-weight: 300;
@@ -3241,10 +3242,16 @@ body {
       width: 10%;
       z-index: 2; }
     .testimonials.grid .item .cont {
-      padding: 80px 50px;
+      padding: 50px 50px;
       border: 4px solid rgba(255, 255, 255, 0.1);
       border-top: 0;
+      height: 40vh;
       position: relative; }
+      @media screen and (max-width: 996px) {
+        .testimonials.grid .item .cont{
+          height: 60vh;
+      }
+    }
       .testimonials.grid .item .cont:after, .testimonials.grid .item .cont:before {
         content: '';
         position: absolute;
@@ -3294,7 +3301,7 @@ body {
         padding-left: 20px;
         font-size: 16px; }
         .testimonials.grid .item .info h6 span {
-          color: #c5a47e;
+          color: #dd5826;
           font-size: 13px;
           font-weight: 400;
           margin-top: 5px;
@@ -4003,7 +4010,7 @@ body {
     padding-right: 30px; }
   .contact .info .item .cont h6 {
     font-size: 20px;
-    color: #c5a47e;
+    color: #dd5826;
     margin-bottom: 10px; }
   .contact .info .item .cont p {
     font-size: 13px; }
@@ -4014,7 +4021,7 @@ body {
     height: 100%; }
 
 .contact .form {
-  padding: 120px 5%; }
+  padding: 120px 5% 120px 0; }
   .contact .form input, .contact .form textarea {
     padding: 15px;
     padding-left: 0;
@@ -4056,7 +4063,7 @@ footer {
       font-size: 13px; }
     footer .item li .sm-post .date {
       font-size: 12px;
-      color: #c5a47e; }
+      color: #dd5826; }
     footer .item li .subscribe {
       width: 100%;
       position: relative; }
@@ -4100,7 +4107,7 @@ footer {
       text-transform: uppercase;
       letter-spacing: 3px; }
       footer .item .copy-right p a {
-        color: #c5a47e; }
+        color: #dd5826; }
 
 /* ====================== [ End Footer ] ====================== */
 /* ====================== [ Start Responsive ] ====================== */
@@ -4919,6 +4926,20 @@ hr {
 .whyus-fast{
   color: #dd5826;
   font-family: Pe-icon-7-stroke !important;
+}
+.featured-imagebox-post.style1 .post-meta span:hover{
+  color: #dd5826;
+}
+.post-title a:hover{
+  color: #dd5826;
+}
+.global-market{
+  width: 65%;
+}
+@media screen and (max-width: 900px) {
+  .global-market{
+  width: 100%;
+}
 }
 @media screen and (min-width: 480px) {
     .col-sm-1_2 {

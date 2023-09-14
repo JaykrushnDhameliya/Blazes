@@ -16,7 +16,7 @@ const Footer = ({ classText }) => {
                 <li>
                   <span className="icon pe-7s-map-marker"></span>
                   <div className="cont">
-                    <h6>Officeal Address</h6>
+                    <h6>official Address</h6>
                     <p>Office No. 1020, RK WORLD TOWER, Near Shital Park, Rajkot(Guj.)-360006 INDIA.</p>
                   </div>
                 </li>
@@ -32,7 +32,7 @@ const Footer = ({ classText }) => {
                   <span className="icon pe-7s-call"></span>
                   <div className="cont">
                     <h6>Call Us</h6>
-                    <p>+9199098 44111 | +91 90990 47677</p>
+                    <p>+91 99098 44111 | +91 90990 47677</p>
                   </div>
                 </li>
               </ul>

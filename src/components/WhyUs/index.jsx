@@ -13,7 +13,7 @@ const WhyUs = () => {
                    <div className="col-lg-12 col-lg-offset-2 expt1">
                       <h2 className="info-window-title text-white text-uppercase"><strong className="text-weight-700">Blaze International</strong></h2>
                       <hr className="sep-red"/>
-                     <p>MOZILLA GRANITO & GROUP OF COMPANIES has been in tiles business since last 21 years and successfully pain
+                     <p>BLAZE INTERNATIONAL & GROUP OF COMPANIES has been in tiles business since last 21 years and successfully pain
                         the trust of every customer and dealers. The quality of our product makes it more durable than any other Our
                         authenticity, curiosity and our incredible empathy are the main pillars behind our preat relationship with our
                         customers.</p>
