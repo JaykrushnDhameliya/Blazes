@@ -3,9 +3,9 @@ const WhyUs = () => {
   return (
     <div className="block-frame-sm block-frame-offset block-cover-img">
     <div className="container-full block-full-height-sm">
-       <div className="row block-full-height-sm">
-          <div id="adv_bgd_img_3" className="col-lg-6 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs" style={{textAlign:'end'}}>
-             <img className="hidden-sm hidden-md hidden-lg bgwhyus" src="/assets/img/whyUs.jpg" alt="img"/>
+       <div className="row block-full-height-sm" style={{justifyContent:'center'}}>
+          <div id="adv_bgd_img_3" className="col-lg-5 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs" style={{textAlign:'center'}}>
+             <img className="hidden-sm hidden-md hidden-lg bgwhyus" src="/assets/img/whyUs1.jpg" alt="img"/>
           </div>
            <div className="col-lg-6 block-half-height-sm block-full-height-md bgd-dark-grey">
              <div className="vcenter-outer">

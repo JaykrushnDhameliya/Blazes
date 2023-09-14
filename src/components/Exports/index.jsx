@@ -74,6 +74,22 @@ const Exports = () => {
          <div className="clearfix"></div>
       </div>
    </div>
+   <div className="block-frame-sm block-frame-offset block-cover-img">
+      <div className="container-full block-full-height-sm">
+         <div className="row block-full-height-sm">
+              <div className="col-md-12 block-half-height-sm block-full-height-md bgd-dark-grey">
+               <div className="vcenter-outer">
+                  <div className="vcenter-inner justify-content-center d-flex">
+                     <div className="col-lg-8 col-lg-offset-3 text-center">
+                     <img src="/assets/img/world2.png"/>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <div className="clearfix"></div>
+      </div>
+   </div>
     </>
   );
 };
