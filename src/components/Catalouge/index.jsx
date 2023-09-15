@@ -149,7 +149,6 @@ const Catalouge = () => {
           </div>
         </div>
       </section>
-      <button onclick={()=>download()}>Download!</button>
       <section className="ttm-row portfolio-section clearfix ">
         <div className="container">
           <div className="row">
