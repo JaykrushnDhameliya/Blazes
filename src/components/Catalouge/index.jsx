@@ -77,7 +77,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
+                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener noreferrer">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -85,7 +85,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener">{item.name}</a>
+                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
+                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener noreferrer">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -139,7 +139,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener">{item.name}</a>
+                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
+                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener noreferrer">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -192,7 +192,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener">{item.name}</a>
+                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
+                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener noreferrer">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -245,7 +245,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener">{item.name}</a>
+                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
