@@ -74,7 +74,7 @@ const Exports = () => {
                <div className="vcenter-outer">
                   <div className="vcenter-inner justify-content-center d-flex">
                      <div className="col-lg-8 col-lg-offset-3 text-center">
-                     <img src="/assets/img/world2.png"/>
+                     <img src="/assets/img/Map.png"/>
                      </div>
                   </div>
                </div>
