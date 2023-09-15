@@ -65,9 +65,8 @@ const Catalouge = () => {
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
                 <div className="featured-content">
-                  <a></a>
                   <div className="post-header">
-                    <a>
+                    <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
                       <div className="ttm-box-post-date">
                         <span className="ttm-entry-date">
                           <time className="entry-date">
@@ -119,9 +118,8 @@ const Catalouge = () => {
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
                 <div className="featured-content">
-                  <a></a>
                   <div className="post-header">
-                    <a>
+                    <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
                       <div className="ttm-box-post-date">
                         <span className="ttm-entry-date">
                           <time className="entry-date">
@@ -172,9 +170,8 @@ const Catalouge = () => {
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
                 <div className="featured-content">
-                  <a></a>
                   <div className="post-header">
-                    <a>
+                    <a download={item.pdfName} href={item.pdf} target="_blank" rel="noopener">
                       <div className="ttm-box-post-date">
                         <span className="ttm-entry-date">
                           <time className="entry-date">
@@ -225,9 +222,8 @@ const Catalouge = () => {
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
                 <div className="featured-content">
-                  <a></a>
                   <div className="post-header">
-                    <a>
+                    <a download={item.pdfName} href={item.pdf} target="_blank" rel="noreferrer noopener">
                       <div className="ttm-box-post-date">
                         <span className="ttm-entry-date">
                           <time className="entry-date">
