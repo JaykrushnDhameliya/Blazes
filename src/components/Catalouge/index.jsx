@@ -26,12 +26,12 @@ const Catalouge = () => {
     {name:'300x600mm Digital Wall Tiles(Prism Collection)',src:'/assets/Sanitary/6.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/PrismCollection.pdf?alt=media&token=0a172167-9783-433e-8bc1-45ab68a2bdcb',pdfName:'PrismCollection.pdf'},
   ]
   const Agriculture=[
-    {name:'300x600mm FISH',src:'/assets/Agriculture/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/FISH.pdf?alt=media&token=bc852496-63e4-4a83-ac6e-abec2b843a26",pdfName:'FISH.pdf'},
-    {name:'300x600mm (GLELE)',src:'/assets/Agriculture/2.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/GLELE.pdf?alt=media&token=0c337c0a-8c6e-4239-bce0-159f4df507e0',pdfName:'GLELE.pdf'},
-    {name:'300x600mm (ELEGANTE)',src:'/assets/Agriculture/3.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/GLOSSYELEGANTE.pdf?alt=media&token=02f13530-659d-4ea6-b41e-60bab899e26d',pdfName:'GLOSSYELEGANTE.pdf'},
-    {name:'300x600mm Digital Wall Tiles (KITCHEN)',src:'/assets/Agriculture/4.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/KITCHEN.pdf?alt=media&token=459aabed-4d81-4753-9cb2-69f823d40db8',pdfName:'KITCHEN.pdf'},
-    {name:'300x600mm Digital Wall Tiles(MATT1)',src:'/assets/Agriculture/5.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/MATT1.pdf?alt=media&token=54151c08-3271-4e79-bda6-26e32fcdf6df',pdfName:'MATT1.pdf'},
-    {name:'300x600mm Digital Wall Tiles(MATTGVT)',src:'/assets/Agriculture/6.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/MATTGVT.pdf?alt=media&token=0cad61ee-a141-468e-b730-807884ce3e25',pdfName:'MATTGVT.pdf'},
+    {name:'300x600mm FISH',src:'/assets/Agriculture/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/FISH.pdf?alt=media&token=9ad42eca-d976-45d8-a7d8-c572ff8555ab",pdfName:'FISH.pdf'},
+    {name:'300x600mm (GLELE)',src:'/assets/Agriculture/2.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLELE.pdf?alt=media&token=60a4ecfb-a51c-4ddb-8526-8e92173eda94',pdfName:'GLELE.pdf'},
+    {name:'300x600mm (ELEGANTE)',src:'/assets/Agriculture/3.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYELEGANTE.pdf?alt=media&token=e2b04076-a7a0-407f-b292-5daffded8ab4',pdfName:'GLOSSYELEGANTE.pdf'},
+    {name:'300x600mm Digital Wall Tiles (KITCHEN)',src:'/assets/Agriculture/4.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/KITCHEN.pdf?alt=media&token=8368a792-3d51-4c46-b6f7-a9ec6fb5ca36',pdfName:'KITCHEN.pdf'},
+    {name:'300x600mm Digital Wall Tiles(MATT1)',src:'/assets/Agriculture/5.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATT1.pdf?alt=media&token=0e3a0b79-e224-4e1e-8772-b4740286347d',pdfName:'MATT1.pdf'},
+    {name:'300x600mm Digital Wall Tiles(MATTGVT)',src:'/assets/Agriculture/6.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATTGVT.pdf?alt=media&token=b7d60dde-4f18-4f89-ab36-a8093af6bce8',pdfName:'MATTGVT.pdf'},
   ]
   const Food=[
     {name:'300x600mm CONCEPT',src:'/assets/Food/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/CONCEPT.pdf?alt=media&token=8ccc3124-5026-4298-ac90-12d45fbcca0d",pdfName:'CONCEPT.pdf'},
@@ -77,7 +77,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noreferrer">
+                      <a download={item.pdfName} href={item.pdf} target="_blank">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -85,7 +85,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noreferrer">{item.name}</a>
+                      <a href={item.pdf} target="_blank">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -131,7 +131,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noreferrer">
+                      <a download={item.pdfName} href={item.pdf} target="_blank">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -139,7 +139,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noreferrer">{item.name}</a>
+                      <a href={item.pdf} target="_blank">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -184,7 +184,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noreferrer">
+                      <a download={item.pdfName} href={item.pdf} target="_blank">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -192,7 +192,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noreferrer">{item.name}</a>
+                      <a href={item.pdf} target="_blank">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -237,7 +237,7 @@ const Catalouge = () => {
                       </div>
                     </a>
                     <div className="post-meta">
-                      <a download={item.pdfName} href={item.pdf} target="_blank" rel="noreferrer">
+                      <a download={item.pdfName} href={item.pdf} target="_blank">
                         {" "}
                         <span className="ttm-meta-line comments-link">Download</span>
                       </a>
@@ -245,7 +245,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noreferrer">{item.name}</a>
+                      <a href={item.pdf} target="_blank">{item.name}</a>
                     </h3>
                   </div>
                 </div>
