@@ -110,7 +110,7 @@ export const WorkTwoColumn = () => {
             </div>
             {data.map((item) => {
               return (
-                <div className="col-lg-6 items twoPiece">
+                <div className="col-lg-6 items twoPiece"  key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
@@ -131,7 +131,7 @@ export const WorkTwoColumn = () => {
             })}
             {data1.map((item) => {
               return (
-                <div className="col-lg-6 items WallHung">
+                <div className="col-lg-6 items WallHung" key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
@@ -152,7 +152,7 @@ export const WorkTwoColumn = () => {
             })}
             {data2.map((item) => {
               return (
-                <div className="col-lg-6 items WaterCloset">
+                <div className="col-lg-6 items WaterCloset"  key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
