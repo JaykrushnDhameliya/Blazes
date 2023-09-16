@@ -2303,9 +2303,15 @@ body {
   overflow: hidden; }
   .works.filter-img .filtering .filter span {
     margin-right: 20px;
+    background-color: #dd5826;
+    padding: 8px;
     font-size: 13px; }
+    .works.filter-img .filtering .filter span:hover {
+      font-size: 16px; }
     .works.filter-img .filtering .filter span.active {
-      color: #c5a47e; }
+      color: #000000;
+      font-size: 13px;
+      font-weight: bold; }
   .works.filter-img .filtering .filter.floating {
     float: right; }
 
@@ -2366,9 +2372,9 @@ body {
     -o-transition: all .4s;
     transition: all .4s; }
     .works .item .cont.vis {
-      bottom: -1px;
+      bottom: -40px;
       left: -1px;
-      padding: 15px 30px;
+      padding: 10px 30px;
       padding-left: 15px;
       background: #272727;
       opacity: 1; }
@@ -2377,7 +2383,7 @@ body {
     .works .item .cont span {
       margin-right: 15px;
       font-size: 13px;
-      color: #c5a47e; }
+      color: #dd5826; }
 
 .portfolio {
   overflow: hidden;
@@ -3066,7 +3072,7 @@ body {
       z-index: 2; }
       .team .item.cir .info span {
         font-size: 13px;
-        color: #c5a47e; }
+        color: #dd5826; }
     .team .item .img {
       position: relative; }
       .team .item .img:hover:after {

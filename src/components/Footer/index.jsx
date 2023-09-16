@@ -112,6 +112,11 @@ const Footer = ({ classText }) => {
                 </Link>
                 <Link href="#">
                   <a>
+                  <i className="fab fa-linkedin-in"></i>
+                  </a>
+                </Link>
+                <Link href="#">
+                  <a>
                     <i className="fab fa-instagram"></i>
                   </a>
                 </Link>

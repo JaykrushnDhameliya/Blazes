@@ -16,7 +16,7 @@ const MdDetails = () => {
                   <div className="vcenter-inner">
                      <div className="col-lg-9 col-lg-offset-2 expt1">
                         <h2 className="info-window-title text-white text-uppercase mddetails"><strong className="text-weight-700">MD’s Message</strong></h2>
-                        <p>It gives me extreme pleasure to introduce our organization that we hope you will find innovative but also aesthetically 
+                        <p style={{margin:'0px'}}>It gives me extreme pleasure to introduce our organization that we hope you will find innovative but also aesthetically 
                         pleasing with social presence. With less possibility to meet face-to-face, however we realize the time and inevitable move 
                         these days to do all things is ‘Digital’ and we have made every effort to make our social presence communicative and meaningful.
                         The organization core values lie in the satisfaction of employees and customers through Win-Win Strategy.

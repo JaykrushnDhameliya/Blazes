@@ -95,9 +95,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   {/* <Link href="/work1"> */}
                     <a className="dropdown-item">Ceramic Tiles</a>
                   {/* </Link> */}
-                  {/* <Link href="/work2"> */}
+                  <Link href="/SanitaryTiles">
                     <a className="dropdown-item">Sanitary Tiles</a>
-                  {/* </Link> */}
+                  </Link>
                   {/* <Link href="/work3"> */}
                     <a className="dropdown-item">Agriculture</a>
                    {/* </Link> */}
