@@ -74,7 +74,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#dd5826">
                         <textPath xlinkHref="#circlePath">
                         BLAZE International BLAZE International
                         </textPath>
@@ -113,7 +113,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#dd5826">
                         <textPath xlinkHref="#circlePath">
                         BLAZE International BLAZE International
                         </textPath>
@@ -152,7 +152,7 @@ const Team3 = () => {
                     <circle cx="150" cy="100" r="75" fill="none" />
                     <g>
                       <use xlinkHref="#circlePath" fill="none" />
-                      <text fill="#c5a47e">
+                      <text fill="#dd5826">
                         <textPath xlinkHref="#circlePath">
                          BLAZE International BLAZE International
                         </textPath>

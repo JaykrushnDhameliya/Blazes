@@ -5,6 +5,36 @@ import appData from "../../data/app.json";
 import getSiblings from '../../common/getSiblings'
 
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
+  const scriptLoaded = React.useRef(false);
+  React.useEffect(() => {
+    if (!scriptLoaded.current) {
+      var addScript = document.createElement("script");
+      addScript.setAttribute(
+        "src",
+        "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+      );
+      document.body.appendChild(addScript);
+      window.googleTranslateElementInit = googleTranslateElementInit;
+      scriptLoaded.current = true;
+    }
+    googleTranslateElementInit();
+    document.querySelector("body").classList.add("index3");
+  }, []);
+
+  const googleTranslateElementInit = () => {
+    if (window.google && window.google.translate) {
+      new window.google.translate.TranslateElement(
+        {
+          pageLanguage: "en",
+          autoDisplay: false
+        },
+        "google_translate_element"
+      );
+    } else {
+      console.error("Google Translate API is not available.");
+    }
+  };
+
   const handleDropdown = (e) => {
     getSiblings(e.target.parentElement)
       .filter((item) => item.classList.contains("show"))
@@ -19,9 +49,10 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
       });
     e.target.parentElement.classList.toggle("show");
     e.target.setAttribute("aria-expanded", true);
+    if (e.target.parentElement.childNodes[1]) {
     e.target.parentElement.childNodes[1].classList.toggle("show");
   };
-
+};
   const handleMobileDropdown = (e) => {
     document
       .getElementById("navbarSupportedContent")
@@ -141,6 +172,11 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 <Link href="/contact">
                   <a className="nav-link">Contact</a>
                 </Link>
+              </li>
+              <li className="nav-item">
+              <a className="nav-link">
+                <div id="google_translate_element"></div>
+                </a>
               </li>
             </ul>
           </div>
