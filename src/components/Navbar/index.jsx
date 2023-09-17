@@ -123,18 +123,18 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Collection
                 </span>
                 <div className="dropdown-menu">
-                  {/* <Link href="/work1"> */}
+                  <Link href="/CeramicTiles">
                     <a className="dropdown-item">Ceramic Tiles</a>
-                  {/* </Link> */}
-                  <Link href="/SanitaryTiles">
-                    <a className="dropdown-item">Sanitary Tiles</a>
+                  </Link>
+                  <Link href="/SanitaryWare">
+                    <a className="dropdown-item">Sanitary Ware</a>
                   </Link>
                   {/* <Link href="/work3"> */}
                     <a className="dropdown-item">Agriculture</a>
                    {/* </Link> */}
-                  {/* <Link href="/project-details"> */}
+                  <Link href="/FoodItems">
                     <a className="dropdown-item">Food Items</a>
-                   {/* </Link> */}
+                   </Link>
                 </div>
               </li>
               <li className="nav-item">

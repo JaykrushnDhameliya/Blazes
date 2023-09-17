@@ -2307,13 +2307,23 @@ body {
     margin-right: 8px;
     background-color: #dd5826;
     padding: 8px;
+    margin: 0px 8px;
+    transition:1s;
     font-size: 13px; }
     .works.filter-img .filtering .filter span:hover {
-      font-size: 16px; }
+      background: white;
+      opacity: .8;
+      transition: all 2s;
+      color: #dd5826;
+      transform: scale(1.1);
+     }
     .works.filter-img .filtering .filter span.active {
       color: #000000;
       font-size: 13px;
-      font-weight: bold; }
+      border: 2px solid azure;
+      font-weight: bold; 
+    }
+      
   .works.filter-img .filtering .filter.floating {
     float: right; }
 
@@ -2345,7 +2355,18 @@ body {
   padding: 0 50px; }
 
 .works .item {
-  position: relative; }
+  position: relative;
+  animation-name: example;
+  animation-duration: 1s;
+  background-color: black;
+  left: 0px;
+  transform: scale(1.1);
+
+}
+@keyframes example {
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+}
   .works .item:hover:after,
   .works .item:hover .cont {
     opacity: 1; }

@@ -59,7 +59,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Apple One Pice</Link>
+                    <h5>Apple One Pice</h5>
                   </h5>
                   <span>Sanitary</span>
                   
@@ -73,7 +73,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Moon One Pice</Link>
+                    <h5>Moon One Pice</h5>
                   </h5>
                   <span>Sanitary</span>
                   
@@ -87,7 +87,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Santo One Pice</Link>
+                    <h5>Santo One Pice</h5>
                   </h5>
                   <span>Sanitary</span>
                   
@@ -101,7 +101,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Sapal One Pice</Link>
+                    <h5>Sapal One Pice</h5>
                   </h5>
                   <span>Sanitary</span>
                   
@@ -120,7 +120,7 @@ export const WorkTwoColumn = () => {
                     </div>
                     <div className="cont vis">
                       <h5>
-                        <Link href="/project-details">{item.name}</Link>
+                        <h5>{item.name}</h5>
                       </h5>
                       <span>Sanitary</span>
                       
@@ -141,7 +141,7 @@ export const WorkTwoColumn = () => {
                     </div>
                     <div className="cont vis">
                       <h5>
-                        <Link href="/project-details">{item.name}</Link>
+                        <h5>{item.name}</h5>
                       </h5>
                       <span>Sanitary</span>
                       
@@ -162,7 +162,7 @@ export const WorkTwoColumn = () => {
                     </div>
                     <div className="cont vis">
                       <h5>
-                        <Link href="/project-details">{item.name}</Link>
+                        <h5>{item.name}</h5>
                       </h5>
                       <span>Sanitary</span>
                       
@@ -178,7 +178,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h5>Modern Townhouse</Lh5
                   </h5>
                   <span>Sanitary</span>
                   
@@ -192,7 +192,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h5>Modern Townhouse</Lh5
                   </h5>
                   <span>Sanitary</span>
                   
@@ -206,7 +206,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h5>Modern Townhouse</Lh5
                   </h5>
                   <span>Sanitary</span>
                   
@@ -220,7 +220,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h5>Modern Townhouse</Lh5
                   </h5>
                   <span>Sanitary</span>
                   
@@ -234,7 +234,7 @@ export const WorkTwoColumn = () => {
                 </div>
                 <div className="cont vis">
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h5>Modern Townhouse</Lh5
                   </h5>
                   <span>Sanitary</span>
                   
