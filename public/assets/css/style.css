@@ -1928,7 +1928,18 @@ body {
   padding-left: 0; }
   .about .img img {
     width: calc(100% + 50px);
-    margin-left: -50px; }
+    margin-left: -50px; 
+  position: relative;
+  animation-name: about-img;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes about-img {
+  0%   {left:0px; top:0px;}
+  50%  {left:50px; top:0px;}
+  100% {left:0px; top:0px;}
+}
   .about .img .feat {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -2365,8 +2376,20 @@ body {
 }
 @keyframes example {
   0%   { left:0px; top:0px;}
-  25%  { left:200px; top:0px;}
+  25%  { left:20px; top:0px;}
 }
+.works .item:hover{
+  position: relative;
+  animation-name: works-item-hover;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes works-item-hover {
+  0%   {left:0px; top:0px;}
+  50%  {left:0px; top:35px;}
+  100% {left:0px; top:0px;}
+}
+
   .works .item:hover:after,
   .works .item:hover .cont {
     opacity: 1; }
@@ -3066,7 +3089,7 @@ body {
         left: 0;
         right: 0;
         bottom: 5px;
-        background: #c5a47e;
+        background: #dd5826;
         opacity: 0;
         z-index: -1;
         -webkit-transition: all .7s;
@@ -4068,7 +4091,7 @@ body {
     height: 100%; }
 
 .contact .form {
-  padding: 120px 5% 120px 0; }
+  padding: 120px 5% 120px 3%; }
   .contact .form input, .contact .form textarea {
     padding: 15px;
     padding-left: 0;
