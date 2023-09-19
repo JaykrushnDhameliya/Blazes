@@ -1,7 +1,13 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const OurCompany = () => {
+    useEffect(() => {
+        AOS.init();
+        AOS.refresh();
+      }, []);
   return (
    <section className="ttm-row services-section ttm-bgcolor-grey mt-5 clearfix">
             <div className="container">
@@ -22,14 +28,14 @@ const OurCompany = () => {
                        
                         <div className="row no-gutters">
                             <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="featured-icon-box style7">
-                                    <div className="featured-icon">
+                                <div className="featured-icon-box style7" style={{overflow:'hidden'}}>
+                                    <div className="featured-icon" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
                                         <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-size-lg ttm-icon_element-color-skincolor ttm-icon_element-style-rounded">
                                             <i className="flaticon-home7"></i>
                                         </div>
                                     </div>
                                     <div className="sep_line ttm-bgcolor-skincolor"></div>
-                                    <div className="featured-content sal-animate" data-sal="slide-up" >
+                                    <div className="featured-content sal-animate" data-sal="slide-up" data-aos="zoom-out-down" data-aos-duration="2000">
                                         <div className="featured-title">
                                             <h3>Our Vision</h3>
                                         </div>
@@ -40,8 +46,8 @@ const OurCompany = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="featured-icon-box style7">
-                                    <div className="featured-content sal-animate" data-sal="slide-up" style={{margin: '-40px 0 40px 0'}}>
+                                <div className="featured-icon-box style7" style={{overflow:'hidden'}}>
+                                    <div className="featured-content sal-animate" data-sal="slide-up" style={{margin: '-40px 0 40px 0'}} data-aos="zoom-out-down" data-aos-duration="2000">
                                         <div className="featured-title">
                                             <h3> Our Value </h3>
                                         </div>
@@ -50,7 +56,7 @@ const OurCompany = () => {
                                         </div>
                                     </div>
                                     <div className="sep_line ttm-bgcolor-darkgrey"></div>
-                                    <div className="featured-icon">
+                                    <div className="featured-icon" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
                                         <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-size-lg ttm-icon_element-color-darkgrey ttm-icon_element-style-rounded">
                                             <i className="flaticon-home7"></i>
                                         </div>
@@ -58,14 +64,14 @@ const OurCompany = () => {
                                 </div>
                             </div>
                             <div className="col-lg-4 col-md-6 col-sm-6">
-                                <div className="featured-icon-box style7">
-                                    <div className="featured-icon">
+                                <div className="featured-icon-box style7" style={{overflow:'hidden'}}>
+                                    <div className="featured-icon" data-aos="fade-down" data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
                                         <div className="ttm-icon ttm-icon_element-fill ttm-icon_element-size-lg ttm-icon_element-color-skincolor ttm-icon_element-style-rounded">
                                             <i className="flaticon-home7"></i>
                                         </div>
                                     </div>
                                     <div className="sep_line ttm-bgcolor-skincolor"></div>
-                                    <div className="featured-content sal-animate" data-sal="slide-up" >
+                                    <div className="featured-content sal-animate" data-sal="slide-up" data-aos="zoom-out-down" data-aos-duration="2000">
                                         <div className="featured-title">
                                             <h3>Our Mission</h3>
                                         </div>

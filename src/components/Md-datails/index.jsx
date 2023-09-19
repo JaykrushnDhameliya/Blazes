@@ -1,20 +1,27 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 
 const MdDetails = () => {
+   useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
     <div className="block-frame-sm block-frame-offset block-cover-img">
       <div className="container-full block-full-height-sm">
          <div className="row block-full-height-sm" style={{display:'flex',justifyContent:'end'}}>
-            <div id="adv_bgd_img_3" className="col-lg-4 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs mdImage">
-            <div id="adv_bgd_img_3" className="col-lg-12">
+            <div id="adv_bgd_img_3" className="col-lg-4 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs mdImage"  style={{overflow:'hidden'}}>
+            <div id="adv_bgd_img_3" className="col-lg-12" data-aos="zoom-out-right" data-aos-duration="3000">
                <img className="hidden-sm hidden-md hidden-lg" src="/assets/img/md.png" alt="img" style={{height:'40vh'}}/>
             </div>
             </div>
              <div className="col-lg-6 block-half-height-sm block-full-height-md bgd-dark-grey">
                <div className="vcenter-outer">
-                  <div className="vcenter-inner">
-                     <div className="col-lg-9 col-lg-offset-2 expt1">
+                  <div className="vcenter-inner" style={{overflow:'hidden'}}>
+                     <div className="col-lg-9 col-lg-offset-2 expt1" data-aos="zoom-out-left" data-aos-duration="3000">
                         <h2 className="info-window-title text-white text-uppercase mddetails"><strong className="text-weight-700">MD’s Message</strong></h2>
                         <p style={{margin:'0px'}}>It gives me extreme pleasure to introduce our organization that we hope you will find innovative but also aesthetically 
                         pleasing with social presence. With less possibility to meet face-to-face, however we realize the time and inevitable move 

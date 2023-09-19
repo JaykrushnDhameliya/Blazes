@@ -14,8 +14,8 @@ const WorkWithoutFilter = ({ vis }) => {
       <section className="works section-padding">
         <div className="container">
           <div className="row gallery">
-            <div className="col-md-6 items mt-0">
-              <div className="main-header mb-0">
+            <div className="col-md-6 items mt-0" data-aos="fade-down">
+              <div className="main-header mb-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <h3>Works.</h3>
               </div>
             </div>

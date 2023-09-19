@@ -1,141 +1,13 @@
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blogs3 = ({ smallTitle }) => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
-    // <section className="blog-grid section-padding">
-    //   <div className="container">
-    //     {!smallTitle ? (
-    //       <div className="main-header text-center">
-    //         <h3>Latest News.</h3>
-    //         <div className="tex-bg">Blog</div>
-    //       </div>
-    //     ) : (
-    //       <div className="section-head">
-    //         <h3>News</h3>
-    //       </div>
-    //     )}
-    //     <div className="row">
-    //       <div className="col-lg-4">
-    //         <div
-    //           className="item bg-img md-mb50 wow fadeInUp"
-    //           data-wow-delay=".3s"
-    //           style={{ backgroundImage: "url(/assets/img/blog/news2.jpg)" }}
-    //         >
-    //           <div className="cont">
-    //             <Link href="/packing-details">
-    //               <a className="date">
-    //                 <span>
-    //                   <i>06</i> August
-    //                 </span>
-    //               </a>
-    //             </Link>
-    //             <div className="info">
-    //               <Link href="#">
-    //                 <a className="author">
-    //                   <span>Admin</span>
-    //                 </a>
-    //               </Link>
-    //               <Link href="/packing-details">
-    //                 <a className="tag">
-    //                   <span>WordPress</span>
-    //                 </a>
-    //               </Link>
-    //             </div>
-    //             <h6>
-    //               <Link href="/packing-details">
-    //                 Double rectangle houses from old containers.
-    //               </Link>
-    //             </h6>
-    //             <div className="btn-more">
-    //               <Link href="/packing-details">
-    //                 <a className="simple-btn">Read More</a>
-    //               </Link>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="col-lg-4">
-    //         <div
-    //           className="item active bg-img md-mb50 wow fadeInUp"
-    //           data-wow-delay=".5s"
-    //           style={{ backgroundImage: "url(/assets/img/blog/news1.jpg)" }}
-    //         >
-    //           <div className="cont">
-    //             <Link href="/packing-details">
-    //               <a className="date">
-    //                 <span>
-    //                   <i>06</i> August
-    //                 </span>
-    //               </a>
-    //             </Link>
-    //             <div className="info">
-    //               <Link href="#">
-    //                 <a className="author">
-    //                   <span>Admin</span>
-    //                 </a>
-    //               </Link>
-    //               <Link href="/packing-details">
-    //                 <a className="tag">
-    //                   <span>WordPress</span>
-    //                 </a>
-    //               </Link>
-    //             </div>
-    //             <h6>
-    //               <Link href="/packing-details">
-    //                 How to use solid color combine with simple furnitures.
-    //               </Link>
-    //             </h6>
-    //             <div className="btn-more">
-    //               <Link href="/packing-details" className="simple-btn">
-    //                 Read More
-    //               </Link>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //       <div className="col-lg-4">
-    //         <div
-    //           className="item bg-img wow fadeInUp"
-    //           data-wow-delay=".8s"
-    //           style={{ backgroundImage: "url(/assets/img/blog/news3.jpg)" }}
-    //         >
-    //           <div className="cont">
-    //             <Link href="/packing-details">
-    //               <a className="date">
-    //                 <span>
-    //                   <i>06</i> August
-    //                 </span>
-    //               </a>
-    //             </Link>
-    //             <div className="info">
-    //               <Link href="#">
-    //                 <a className="author">
-    //                   <span>Admin</span>
-    //                 </a>
-    //               </Link>
-    //               <Link href="/packing-details">
-    //                 <a className="tag">
-    //                   <span>WordPress</span>
-    //                 </a>
-    //               </Link>
-    //             </div>
-    //             <h6>
-    //               <Link href="/packing-details">
-    //                 How to use solid color combine with simple furnitures.
-    //               </Link>
-    //             </h6>
-    //             <div className="btn-more">
-    //               <Link href="/packing-details" className="simple-btn">
-    //                 Read More
-    //               </Link>
-    //             </div>
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </section>
      <section className="services section-padding pb-0">
       <div className="container" style={{padding:'30px', borderBottom:'0px'}}>
         <div className="row" style={{textAlign:'center'}}>
@@ -154,7 +26,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/calendar.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Total Size of Export 7500 Container Per Year
@@ -162,7 +34,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item card1">
+            <div className="item card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/cargo-ship.png" alt="1" style={{width:'27%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Hienest Exporter Since Last 8 Year
@@ -172,7 +44,7 @@ const Blogs3 = ({ smallTitle }) => {
         </div>
         <div className="row" style={{textAlign:'center',marginTop:'15px'}}>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/global-shipping.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Exporting to More than 35+ Countries
@@ -180,7 +52,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/iso.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Blaze international is ISO Certified Company
@@ -188,7 +60,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item card1">
+            <div className="item card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/bestQuality.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Blaze international is Provide Best Quality
