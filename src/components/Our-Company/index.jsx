@@ -15,7 +15,7 @@ const OurCompany = () => {
                 <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title title-style-center_text">
-                            <div className="title-header">
+                            <div className="title-header" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                                 <h3>Our Company</h3>
                                 <h2 className="title">Vision,mission and Value</h2>
                             </div>

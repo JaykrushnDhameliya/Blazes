@@ -130,7 +130,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item">Sanitary Ware</a>
                   </Link>
                   {/* <Link href="/work3"> */}
-                    <a className="dropdown-item">Agriculture</a>
+                    <a className="dropdown-item">Architecture</a>
                    {/* </Link> */}
                   <Link href="/FoodItems">
                     <a className="dropdown-item">Food Items</a>

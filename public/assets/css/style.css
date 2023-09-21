@@ -4607,7 +4607,7 @@ footer {
   border-bottom-right-radius:50px;
   transition: all 1s;
   color: #dd5826;
-  transform: scale(1.1) !important;
+  transform: scale(.9) !important;
 }
 .pack1 h3{
   text-align: center;
