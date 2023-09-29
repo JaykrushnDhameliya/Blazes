@@ -14,21 +14,21 @@ const WorkWithoutFilter = ({ vis }) => {
       <section className="works section-padding">
         <div className="container">
           <div className="row gallery">
-            <div className="col-md-6 items mt-0">
-              <div className="main-header mb-0">
+            <div className="col-md-6 items mt-0" data-aos="fade-down">
+              <div className="main-header mb-0" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <h3>Works.</h3>
               </div>
             </div>
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/work1.jpg" alt="" />
+                  <img src="/assets/img/works/Preview-1.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>1</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h6>Preview-1</h6>
                   </h5>
                 </div>
               </div>
@@ -36,13 +36,13 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/work2.jpg" alt="" />
+                  <img src="/assets/img/works/Preview-2.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>2</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h6>Preview-2</h6>
                   </h5>
                 </div>
               </div>
@@ -50,13 +50,13 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/work3.jpg" alt="" />
+                  <img src="/assets/img/works/Preview-3.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>3</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h6>Preview-3</h6>
                   </h5>
                 </div>
               </div>
@@ -64,13 +64,13 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/work4.jpg" alt="" />
+                  <img src="/assets/img/works/Preview-4.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>4</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h6>Preview-4</h6>
                   </h5>
                 </div>
               </div>
@@ -78,13 +78,13 @@ const WorkWithoutFilter = ({ vis }) => {
             <div className="col-md-6 items">
               <div className="item">
                 <div className="img">
-                  <img src="/assets/img/works/work5.jpg" alt="" />
+                  <img src="/assets/img/works/Preview-5.jpg" alt="" />
                 </div>
                 <div className={`cont ${vis ? "vis" : ""}`}>
                   <span>Architecture</span>
-                  <span>Modern</span>
+                  <span>5</span>
                   <h5>
-                    <Link href="/project-details">Modern Townhouse</Link>
+                    <h6>Preview-5</h6>
                   </h5>
                 </div>
               </div>

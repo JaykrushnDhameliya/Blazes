@@ -1,11 +1,17 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Team3 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section className="team section-padding">
       <div className="container">
-        <div className="section-head">
+        <div className="section-head" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
           <h3>Our Products</h3>
         </div>
       </div>
@@ -13,7 +19,7 @@ const Team3 = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
-              <div className="img">
+              <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/product6.jpg" alt="" className="productImg" />
                 <div id="circle">
                   <svg
@@ -52,7 +58,7 @@ const Team3 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
-              <div className="img">
+              <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/product2.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg
@@ -91,7 +97,7 @@ const Team3 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
-              <div className="img">
+              <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/product3.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg
@@ -130,7 +136,7 @@ const Team3 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
-              <div className="img">
+              <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/product4.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg

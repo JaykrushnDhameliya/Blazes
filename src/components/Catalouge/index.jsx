@@ -1,6 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
 import thumparallaxUp from "../../common/thumparallaxUp";
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Catalouge = () => {
   React.useEffect(() => {
@@ -8,7 +10,10 @@ const Catalouge = () => {
       if (window.simpleParallax) thumparallaxUp();
     }, 1000);
   }, []);
-
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   const Ceramic=[
     {name:'300x600mm (Matt Finish)',src:'/assets/Ceramic/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATT.pdf?alt=media&token=3c3414d8-acab-4125-b5ca-d68b88d217e1",pdfName:'MATT.pdf'},
     {name:'300x600mm (Glossy Finish)',src:'/assets/Ceramic/2.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYFinish.pdf?alt=media&token=c19c8ef4-6e20-4977-8448-6996790f2d26',pdfName:'GLOSSYFinish.pdf'},
@@ -49,7 +54,7 @@ const Catalouge = () => {
             <div className="col-lg-12">
               <div className="section-title style1 text-center sal-animate" data-sal="slide-up">
                 <div className="title-header sal-animate" data-sal="slide-up">
-                  <h2 className="title-catalouge">Ceramic Tiles</h2>
+                  <h2 className="title-catalouge" data-aos="fade-up"  data-aos-duration="3000">Ceramic Tiles</h2>
                 </div>
               </div>
             </div>
@@ -60,7 +65,7 @@ const Catalouge = () => {
             return(
               <>
                <div className="col-md-4 col-sm-12 sal-animate" data-sal="slide-up">
-              <div className="featured-imagebox featured-imagebox-post style1">
+              <div className="featured-imagebox featured-imagebox-post style1" data-aos="flip-up" data-aos-duration="3000">
                 <div className="featured-thumbnail">
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
@@ -103,7 +108,7 @@ const Catalouge = () => {
             <div className="col-lg-12">
               <div className="section-title style1 text-center sal-animate" data-sal="slide-up">
                 <div className="title-header sal-animate" data-sal="slide-up">
-                  <h2 className="title-catalouge">Sanitary Tiles</h2>
+                  <h2 className="title-catalouge" data-aos="fade-up"  data-aos-duration="2000">Sanitary Tiles</h2>
                 </div>
               </div>
             </div>
@@ -113,7 +118,7 @@ const Catalouge = () => {
             return(
               <>
                <div className="col-md-4 col-sm-12 sal-animate" data-sal="slide-up">
-              <div className="featured-imagebox featured-imagebox-post style1">
+              <div className="featured-imagebox featured-imagebox-post style1" data-aos="flip-down" data-aos-duration="3000">
                 <div className="featured-thumbnail">
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
@@ -155,7 +160,7 @@ const Catalouge = () => {
             <div className="col-lg-12">
               <div className="section-title style1 text-center sal-animate" data-sal="slide-up">
                 <div className="title-header sal-animate" data-sal="slide-up">
-                  <h2 className="title-catalouge">Agriculture</h2>
+                  <h2 className="title-catalouge" data-aos="fade-up"  data-aos-duration="2000">Agriculture</h2>
                 </div>
               </div>
             </div>
@@ -165,7 +170,7 @@ const Catalouge = () => {
             return(
               <>
                <div className="col-md-4 col-sm-12 sal-animate" data-sal="slide-up">
-              <div className="featured-imagebox featured-imagebox-post style1">
+              <div className="featured-imagebox featured-imagebox-post style1" data-aos="flip-up" data-aos-duration="3000">
                 <div className="featured-thumbnail">
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>
@@ -207,7 +212,7 @@ const Catalouge = () => {
             <div className="col-lg-12">
               <div className="section-title style1 text-center sal-animate" data-sal="slide-up">
                 <div className="title-header sal-animate" data-sal="slide-up">
-                  <h2 className="title-catalouge">Food Items</h2>
+                  <h2 className="title-catalouge" data-aos="fade-up"  data-aos-duration="2000">Food Items</h2>
                 </div>
               </div>
             </div>
@@ -217,7 +222,7 @@ const Catalouge = () => {
             return(
               <>
                <div className="col-md-4 col-sm-12 sal-animate" data-sal="slide-up">
-              <div className="featured-imagebox featured-imagebox-post style1">
+              <div className="featured-imagebox featured-imagebox-post style1" data-aos="flip-down" data-aos-duration="3000">
                 <div className="featured-thumbnail">
                   <img className="img-fluid" src={item.src} alt="" height="100%" width="100%" />
                 </div>

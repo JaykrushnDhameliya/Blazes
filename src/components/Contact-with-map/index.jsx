@@ -1,11 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import appData from '../../data/app.json'
 
 const ContactWithMap = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="container-fluid">
       <div className="row">
-        <div className="col-lg-6 map-box px-5">
+        <div className="col-lg-6 map-box px-5" data-aos="fade-right" data-aos-duration="2000">
           <iframe src={appData.mapIframe}></iframe>
         </div>
         <div className="col-lg-6 form">
@@ -13,7 +19,7 @@ const ContactWithMap = () => {
             <div className="messages"></div>
 
             <div className="controls">
-              <div className="form-group">
+              <div className="form-group" data-aos="fade-up" data-aos-duration="2000">
                 <input
                   id="form_name"
                   type="text"
@@ -23,7 +29,7 @@ const ContactWithMap = () => {
                 />
               </div>
 
-              <div className="form-group">
+              <div className="form-group" data-aos="fade-up" data-aos-duration="2000">
                 <input
                   id="form_email"
                   type="email"
@@ -33,7 +39,7 @@ const ContactWithMap = () => {
                 />
               </div>
 
-              <div className="form-group">
+              <div className="form-group" data-aos="fade-up" data-aos-duration="2000">
                 <textarea
                   id="form_message"
                   name="message"
@@ -43,7 +49,7 @@ const ContactWithMap = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="btn-curve btn-color">
+              <button type="submit" className="btn-curve btn-color" data-aos="fade-down" data-aos-duration="2000">
                 <span>Send Message</span>
               </button>
             </div>

@@ -1,7 +1,12 @@
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Blogs3 = ({ smallTitle }) => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
      <section className="services section-padding pb-0">
       <div className="container" style={{padding:'30px', borderBottom:'0px'}}>
@@ -21,7 +26,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/calendar.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Total Size of Export 7500 Container Per Year
@@ -29,7 +34,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item card1">
+            <div className="item card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/cargo-ship.png" alt="1" style={{width:'27%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Hienest Exporter Since Last 8 Year
@@ -39,7 +44,7 @@ const Blogs3 = ({ smallTitle }) => {
         </div>
         <div className="row" style={{textAlign:'center',marginTop:'15px'}}>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/global-shipping.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Exporting to More than 35+ Countries
@@ -47,7 +52,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item md-mb50 card1">
+            <div className="item md-mb50 card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/iso.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Blaze international is ISO Certified Company
@@ -55,7 +60,7 @@ const Blogs3 = ({ smallTitle }) => {
             </div>
           </div>
           <div className="col-lg-4 cardBox">
-            <div className="item card1">
+            <div className="item card1" data-aos="zoom-in-left" data-aos-duration="3000">
             <img src="/assets/img/bestQuality.png" alt="1" style={{width:'25%',margin:'23px 0',padding:'10px'}}/>
               <p>
               Blaze international is Provide Best Quality

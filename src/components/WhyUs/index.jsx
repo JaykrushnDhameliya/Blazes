@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const WhyUs = () => {
+   useEffect(() => {
+      AOS.init();
+      AOS.refresh();
+    }, []);
   return (
     <div className="block-frame-sm block-frame-offset block-cover-img">
     <div className="container-full block-full-height-sm">
        <div className="row block-full-height-sm" style={{justifyContent:'center'}}>
-          <div id="adv_bgd_img_3" className="col-lg-5 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs" style={{textAlign:'center'}}>
+          <div id="adv_bgd_img_3" className="col-lg-5 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs" style={{textAlign:'center'}} data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
              <img className="hidden-sm hidden-md hidden-lg bgwhyus" src="/assets/img/whyUs1.jpg" alt="img"/>
           </div>
            <div className="col-lg-6 block-half-height-sm block-full-height-md bgd-dark-grey">
              <div className="vcenter-outer">
                 <div className="vcenter-inner">
-                   <div className="col-lg-12 col-lg-offset-2 expt1">
+                   <div className="col-lg-12 col-lg-offset-2 expt1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                       <h2 className="info-window-title text-white text-uppercase"><strong className="text-weight-700">Blaze International</strong></h2>
                       <hr className="sep-red"/>
                      <p>BLAZE INTERNATIONAL & GROUP OF COMPANIES has been in tiles business since last 21 years and successfully pain

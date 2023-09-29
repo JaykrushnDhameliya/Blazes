@@ -1,14 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Services7 = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <section className="services section-padding pb-0 coreValues">
       <div className="container" style={{borderBottom:'0px'}}>
-        <div className="section-head" >
+        <div className="section-head" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
           <h3>Core Values</h3>
           </div>
         <div className="row" style={{textAlign:'center'}}>
           <div className="col-lg-4">
-            <div className="item md-mb50 borderBox">
+            <div className="item md-mb50 borderBox" data-aos="flip-left" data-aos-duration="2000">
               {/* <span className="icon flaticon-sketch"></span> */}
               <img src="/assets/img/dimand.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>ELEGANT COLLECTIONS</h6>
@@ -21,7 +28,7 @@ const Services7 = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item md-mb50 borderBox">
+            <div className="item md-mb50 borderBox"  data-aos="flip-left" data-aos-duration="2000">
               {/* <span className="icon flaticon-furniture"></span> */}
               <img src="/assets/img/ourValue.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>TRUE TO OUR VALUES</h6>
@@ -35,7 +42,7 @@ const Services7 = () => {
             </div>
           </div>
           <div className="col-lg-4">
-            <div className="item borderBox">
+            <div className="item borderBox"  data-aos="flip-left" data-aos-duration="2000">
               {/* <span className="icon flaticon-home7-1"></span> */}
               <img src="/assets/img/research.png" alt="" style={{width:'25%',background:'white',margin:'23px 0',padding:'10px'}}/>
               <h6>RESEARCH & DEVELOPMENT</h6>

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
-import Link from "next/link";
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 import thumparallaxUp from "../../common/thumparallaxUp";
 
 const PackingDetails = () => {
@@ -9,6 +10,10 @@ const PackingDetails = () => {
       if (window.simpleParallax) thumparallaxUp();
     }, 1000);
   }, []);
+  useEffect(() => {
+   AOS.init();
+   AOS.refresh();
+ }, []);
   return (
     <>
       <div className="fp-tableCell" style={{padding:'30px 60px'}}>
@@ -21,7 +26,7 @@ const PackingDetails = () => {
          <div className="row">
             <div className="col-md-12 pack1">
                <h3>Ceramic Wall Tiles</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
@@ -126,7 +131,7 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Ceramic Floor Tiles</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
@@ -181,7 +186,7 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Full Body Vitrified Tiles</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
@@ -224,7 +229,7 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Porcelain Tiles ( GVT / PGVT )</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
@@ -291,7 +296,7 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Double Charged Vitrified Tiles</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>
@@ -349,7 +354,7 @@ const PackingDetails = () => {
                   </table>
                </div>
                <h3>Porcelain Slab</h3>
-               <div className="table-responsive">
+               <div className="table-responsive" data-aos="zoom-out" data-aos-duration="2000">
                   <table className="table table-hover table-bordered">
                      <tbody>
                         <tr>

@@ -9,30 +9,32 @@ export const FoodTwoColumn = () => {
       if (window.Isotope) initIsotope();
     }, 1000);
   }, []);
-  const BeansItems = [
-    { img: "/assets/BeansItems/butter-beans-feature.jpeg", name: "butter beans- eature" },
-    { img: "/assets/BeansItems/dry-beans-stock.jpg", name: "dry beans" },
-    { img: "/assets/BeansItems/GettyImages.jpg", name: "Getty Beans" },
-    { img: "/assets/BeansItems/Kraft-Heinz-plays-with-bean.jpg", name: "Kraft Heinz" },
-    { img: "/assets/BeansItems/UK farmers.jpg", name: "UK farmers" },
+  const Pulses = [
+    { img: "/assets/Pulses/toordal.jpg", name: "Toor Dal" },
+    { img: "/assets/Pulses/kala chana.jpg", name: "kala Chana" },
+    { img: "/assets/Pulses/Moong Dal.jpg", name: "Moong Dal" },
+    { img: "/assets/Pulses/chana-dal.jpg", name: "Chana Dal" },
   ];
-  const GreenItems = [
-    { img: "/assets/green/easy-green-bean-saute.jpg", name: "easy green bean" },
-    { img: "/assets/green/green-beans-with-bacon-square.jpg", name: "green beans with bacon square" },
-    { img: "/assets/green/GreenBeansPotatoes.jpg", name: "Green Beans Potatoes" },
-    { img: "/assets/green/maxresdefault.jpg", name: "maxres default" },
+  const Spices = [
+    { img: "/assets/Spices/Red-Chilli.jpg", name: "Red Chilli" },
+    { img: "/assets/Spices/Cloves.jpg", name: "Cloves" },
+    { img: "/assets/Spices/Cinna Momum.jpg", name: "Cinna Momum" },
+    { img: "/assets/Spices/Green Cardamom.jpg", name: "Green Cardamom" },
   ];
-  const CoffeeItems = [
-    { img: "/assets/ghana/arabica-coffee-beans.jpg", name: "arabica coffee beans" },
-    { img: "/assets/ghana/Arabica-Coffee.jpg", name: "Arabica Coffee" },
-    { img: "/assets/ghana/Green Arabica beans.jpg", name: "Green Arabica beans" },
+  const Flour = [
+    { img: "/assets/Flour/Wheat Flour.jpg", name: "Wheat Flour" },
+    { img: "/assets/Flour/Bajra-Flour.jpg", name: "Bajra Flour" },
+  ];
+  const Oil = [
+    { img: "/assets/Oil/CASTOR-OIL.jpg", name: "Castor Oil" },
+    { img: "/assets/Oil/soybean-oil.jpeg", name: "soybean Oil" },
   ];
   return (
     <>
       <section className="works filter-img section-padding">
         <div className="container">
           <div className="row gallery">
-            <div className="col-lg-6 items mt-0 Coffee Beans Green">
+            <div className="col-lg-6 items mt-0 Flour Pulses Spices Oil">
               <div className="section-head mb-0">
                 <h3>Food Items</h3>
 
@@ -41,16 +43,17 @@ export const FoodTwoColumn = () => {
                     <span data-filter="*" className="active">
                       All
                     </span>
-                    <span data-filter=".Beans">Dry Beans</span>
-                    <span data-filter=".Green">Green Beans</span>
-                    <span data-filter=".Coffee">Coffee Beans</span>
+                    <span data-filter=".Pulses">Pulses</span>
+                    <span data-filter=".Spices">Spices</span>
+                    <span data-filter=".Flour">Flour</span>
+                    <span data-filter=".Oil">Oil</span>
                   </div>
                 </div>
               </div>
             </div>
-            {BeansItems.map((item) => {
+            {Pulses.map((item) => {
               return (
-                <div className="col-lg-6 items Beans"  key={item.name}>
+                <div className="col-lg-6 items Pulses"  key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
@@ -62,16 +65,16 @@ export const FoodTwoColumn = () => {
                       <h5>
                         <h5>{item.name}</h5>
                       </h5>
-                      <span>Beans Items</span>
+                      <span>Pulses</span>
                       
                     </div>
                   </div>
                 </div>
               );
             })}
-            {GreenItems.map((item) => {
+            {Spices.map((item) => {
               return (
-                <div className="col-lg-6 items Green"  key={item.name}>
+                <div className="col-lg-6 items Spices"  key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
@@ -83,16 +86,16 @@ export const FoodTwoColumn = () => {
                       <h5>
                         <h5>{item.name}</h5>
                       </h5>
-                      <span>Green Items</span>
+                      <span>Spices</span>
                       
                     </div>
                   </div>
                 </div>
               );
             })}
-            {CoffeeItems.map((item) => {
+            {Flour.map((item) => {
               return (
-                <div className="col-lg-6 items Coffee" key={item.name}>
+                <div className="col-lg-6 items Flour" key={item.name}>
                   <div className="item">
                     <div className="img">
                       <img
@@ -104,7 +107,28 @@ export const FoodTwoColumn = () => {
                       <h5>
                         <h5>{item.name}</h5>
                       </h5>
-                      <span>Coffee Items</span>
+                      <span>Flour</span>
+                      
+                    </div>
+                  </div>
+                </div>
+              );
+            })}
+             {Oil.map((item) => {
+              return (
+                <div className="col-lg-6 items Oil" key={item.name}>
+                  <div className="item">
+                    <div className="img">
+                      <img
+                        src={item.img}
+                        alt=""
+                      />
+                    </div>
+                    <div className="cont vis">
+                      <h5>
+                        <h5>{item.name}</h5>
+                      </h5>
+                      <span>Oil</span>
                       
                     </div>
                   </div>
