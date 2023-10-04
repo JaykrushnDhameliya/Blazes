@@ -193,21 +193,21 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   {/* <Link href="/SanitaryWare">
                     <a className="dropdown-item">Sanitary Ware</a>
                   </Link> */}
-                  <Link href="/Spices">
+                  {/* <Link href="/Spices"> */}
                     <a className="dropdown-item">Spices</a>
-                   </Link>
-                  <Link href="/Pulses">
+                   {/* </Link> */}
+                  {/* <Link href="/Pulses"> */}
                     <a className="dropdown-item">Pulses</a>
-                   </Link>
-                   <Link href="/Flour">
+                   {/* </Link> */}
+                   {/* <Link href="/Flour"> */}
                     <a className="dropdown-item">Flour</a>
-                   </Link>
-                   <Link href="/Edible Oil">
+                   {/* </Link> */}
+                   {/* <Link href="/Edible Oil"> */}
                     <a className="dropdown-item">Edible Oil</a>
-                   </Link>
-                   <Link href="/PVC-Pipes">
+                   {/* </Link> */}
+                   {/* <Link href="/PVC-Pipes"> */}
                     <a className="dropdown-item"> PVC & Unsolicited pipes</a>
-                   </Link>
+                   {/* </Link> */}
                 </div>
               </li>
               
