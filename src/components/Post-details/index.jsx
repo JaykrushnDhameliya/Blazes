@@ -42,7 +42,7 @@ const PackingDetails = () => {
                            <th style={{"width":"5%"}}>Net Weight per Container (kgs)</th>
                         </tr>
                         <tr>
-                           <td>200 x 600</td>
+                           <td>200 x 300</td>
                            <td>9&nbsp;</td>
                            <td>6</td>
                            <td>0.72&nbsp;</td>
@@ -53,7 +53,7 @@ const PackingDetails = () => {
                            <td>1843.20</td>
                            <td>26368</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                            <td>250 x 375</td>
                            <td>6.80</td>
                            <td>8</td>
@@ -90,7 +90,7 @@ const PackingDetails = () => {
                            <td>1764</td>
                            <td>1658.16</td>
                            <td>26460</td>
-                        </tr>
+                        </tr> */}
                         <tr>
                            <td>300 x 450</td>
                            <td>8&nbsp;</td>
@@ -115,7 +115,7 @@ const PackingDetails = () => {
                            <td>1782.00</td>
                            <td>26552</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                            <td>300 x 900</td>
                            <td>11.20</td>
                            <td>4</td>
@@ -126,7 +126,7 @@ const PackingDetails = () => {
                            <td>1380</td>
                            <td>1490.40</td>
                            <td>26910</td>
-                        </tr>
+                        </tr> */}
                      </tbody>
                   </table>
                </div>
@@ -170,7 +170,7 @@ const PackingDetails = () => {
                            <td>1658.16</td>
                            <td>27342</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                            <td>600 x 600</td>
                            <td>9</td>
                            <td>4</td>
@@ -181,7 +181,7 @@ const PackingDetails = () => {
                            <td>960</td>
                            <td>1382.40</td>
                            <td>26880</td>
-                        </tr>
+                        </tr> */}
                      </tbody>
                   </table>
                </div>
@@ -245,18 +245,6 @@ const PackingDetails = () => {
                            <th style={{"width":"5%"}}>Net Weight per Container (kgs)</th>
                         </tr>
                         <tr>
-                           <td>400 x 400</td>
-                           <td>10</td>
-                           <td>5</td>
-                           <td>0.80</td>
-                           <td>17</td>
-                           <td>84</td>
-                           <td>19</td>
-                           <td>1596</td>
-                           <td>1276.80</td>
-                           <td>27132</td>
-                        </tr>
-                        <tr>
                            <td>600 x 600</td>
                            <td>9</td>
                            <td>4</td>
@@ -267,6 +255,18 @@ const PackingDetails = () => {
                            <td>960</td>
                            <td>1382.40</td>
                            <td>26880</td>
+                        </tr>
+                        <tr>
+                           <td>600 x 1200</td>
+                           <td>10</td>
+                           <td>5</td>
+                           <td>0.80</td>
+                           <td>17</td>
+                           <td>84</td>
+                           <td>19</td>
+                           <td>1596</td>
+                           <td>1276.80</td>
+                           <td>27132</td>
                         </tr>
                         <tr>
                            <td>800 x 800</td>
@@ -281,7 +281,7 @@ const PackingDetails = () => {
                            <td>25480</td>
                         </tr>
                         <tr>
-                           <td>600 x 1200</td>
+                           <td>800 x 1600</td>
                            <td>9&nbsp;</td>
                            <td>2</td>
                            <td>1.44&nbsp;</td>
@@ -326,7 +326,7 @@ const PackingDetails = () => {
                            <td>1382.40</td>
                            <td>27360-</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                            <td>600 x 1200</td>
                            <td>8.5</td>
                            <td>2</td>
@@ -349,7 +349,7 @@ const PackingDetails = () => {
                            <td>640</td>
                            <td>1228.80</td>
                            <td>25600-</td>
-                        </tr>
+                        </tr> */}
                      </tbody>
                   </table>
                </div>
@@ -373,7 +373,7 @@ const PackingDetails = () => {
                            <th style={{"width":"5%"}}>Net Weight per Container (kgs)</th>
                         </tr>
                         <tr>
-                           <td>800 x 1600</td>
+                           <td>600 x 600</td>
                            <td>9</td>
                            <td>2</td>
                            <td>2.56</td>
@@ -385,7 +385,7 @@ const PackingDetails = () => {
                            <td>26712</td>
                         </tr>
                         <tr>
-                           <td>1200 x 2400</td>
+                           <td>600 x 1200</td>
                            <td>9</td>
                            <td>1</td>
                            <td>2.88</td>
@@ -396,7 +396,7 @@ const PackingDetails = () => {
                            <td>604.80</td>
                            <td>14910</td>
                         </tr>
-                        <tr>
+                        {/* <tr>
                            <td>900 x 1800</td>
                            <td>9</td>
                            <td>2</td>
@@ -419,7 +419,7 @@ const PackingDetails = () => {
                            <td>396</td>
                            <td>1140.48</td>
                            <td>24156</td>
-                        </tr>
+                        </tr> */}
                      </tbody>
                   </table>
                </div>            </div>

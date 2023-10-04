@@ -9,14 +9,14 @@ const WhyUs = () => {
   return (
     <div className="block-frame-sm block-frame-offset block-cover-img">
     <div className="container-full block-full-height-sm">
-       <div className="row block-full-height-sm" style={{justifyContent:'center'}}>
+       <div className="row block-full-height-sm" style={{justifyContent:'center',margin:'30px  0 0 0'}}>
           <div id="adv_bgd_img_3" className="col-lg-5 block-half-height-sm block-full-height-md block-cover-img padding-left-0-xs padding-right-0-xs" style={{textAlign:'center'}} data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
              <img className="hidden-sm hidden-md hidden-lg bgwhyus" src="/assets/img/whyUs1.jpg" alt="img"/>
           </div>
            <div className="col-lg-6 block-half-height-sm block-full-height-md bgd-dark-grey">
              <div className="vcenter-outer">
                 <div className="vcenter-inner">
-                   <div className="col-lg-12 col-lg-offset-2 expt1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                   <div className="col-lg-12 col-lg-offset-2 expt1 whyus" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                       <h2 className="info-window-title text-white text-uppercase"><strong className="text-weight-700">Blaze International</strong></h2>
                       <hr className="sep-red"/>
                      <p>BLAZE INTERNATIONAL & GROUP OF COMPANIES has been in tiles business since last 21 years and successfully pain
@@ -35,6 +35,28 @@ const WhyUs = () => {
              </div>
           </div>
        </div>
+       <div className="row block-full-height-sm" style={{justifyContent:'center',margin:'50px  0 0 0'}}>
+             <div className="vcenter-outer">
+                <div className="vcenter-inner">
+                   <div className="col-lg-12 col-lg-offset-2 expt1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
+                      <h2 className="info-window-title text-white text-uppercase"><strong className="text-weight-700">Why Choose BLAZE INTERNATIONAL LLP?</strong></h2>
+                      <hr className="sep-red"/>
+                        <ul className="whyus-ul-li whyus">
+                            <li>Quality Assurance</li>
+                            <p>Our commitment to excellence means that you receive all our products of the highest quality, ensuring durability and long-lasting beauty for your spaces.</p>
+                            <li>Design Diversity</li>
+                            <p>Discover a wide array of designs, colours, sizes, and finishes that enable you to achieve your vision, from contemporary chic to timeless classics.</p>
+                            <li>Expert Guidance</li>
+                            <p>Our team of experienced professionals is ready to provide expert guidance and assist you in making the right choices for your specific project.</p>
+                            <li>Competitive Pricing</li>
+                            <p>We offer competitive pricing without compromising on quality, making exceptional ceramic tiles, sanitary wares, pvc pipes accessible to a wider audience.</p>
+                            <li>Timely Delivery</li>
+                            <p>We understand the importance of project deadlines. Count on us for prompt and reliable delivery services.</p>
+                        </ul>
+                   </div>
+                </div>
+             </div>
+          </div>
        <div className="clearfix"></div>
     </div>
  </div>

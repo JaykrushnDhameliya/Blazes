@@ -1310,7 +1310,7 @@ body {
       -webkit-transition: all .4s;
       -o-transition: all .4s;
       transition: all .4s;
-      padding: 10px 25px;
+      padding: 10px 15px;
       position: relative; }
       .navbar .dropdown-menu .dropdown-item:after {
         content: '';
@@ -5005,6 +5005,13 @@ hr {
   display: inline-block; 
   width: 1em;
   margin-left: -1em;
+}
+.whyus-ul-li li{
+  list-style-type: decimal;
+  color: #dd5826;
+}
+.whyus p{
+  margin:0 0 15px 0;
 }
 .whyus-fast{
   color: #dd5826;
