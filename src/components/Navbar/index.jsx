@@ -1,11 +1,52 @@
 /* eslint-disable @next/next/no-img-element */
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import appData from "../../data/app.json";
 import getSiblings from '../../common/getSiblings'
 
 const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const scriptLoaded = React.useRef(false);
+  const[open,setOpen]=useState(false)
+  const[sanaitary,setSanatary]=useState(false)
+  const [isHovered, setIsHovered] = useState(false);
+  const [isCompany, setIsCompany] = useState(false);
+
+  const handleHover = (e) => {
+    setIsHovered(true);
+  };
+
+  const handleRemove = (e) => {
+    setIsHovered(false);
+  };
+
+  const handleMouseEnter = () => {
+    setOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setOpen(false);
+  };
+
+  const handleSanitaryEnter = () => {
+    setSanatary(true);
+  };
+
+  const handleSanitaryLeave = () => {
+    setSanatary(false);
+  };
+
+  const handleCompanyHover = (e) => {
+    setIsCompany(true);
+  };
+  const handleCompanyRemove = (e) => {
+    setIsCompany(false);
+  };
+  const handleUtliesHover = (e) => {
+    setIsCompany(true);
+  };
+  const handleUtliesRemove = (e) => {
+    setIsCompany(false);
+  };
   React.useEffect(() => {
     if (!scriptLoaded.current) {
       var addScript = document.createElement("script");
@@ -36,10 +77,15 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   };
 
   const handleDropdown = (e) => {
+    handleHover(e)
+    handleCompanyHover(e)
+    handleUtliesHover(e)
     getSiblings(e.target.parentElement)
       .filter((item) => item.classList.contains("show"))
       .map((item) => {
         item.classList.remove("show");
+        item.childNodes[0].setAttribute("aria-expanded", false);
+
         if (item.childNodes[0]) {
           item.childNodes[0].setAttribute("aria-expanded", false);
         }
@@ -63,11 +109,9 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
     <>
       <nav className="navbar change navbar-expand-lg" ref={navbarRef}>
         <div className="container">
-          {/* <Link href="/demos"> */}
             <a className={`logo ${logoClass && logoClass}`}>
               <img src={appData.lightLogo} alt="logo" ref={logoRef} />
             </a>
-          {/* </Link> */}
 
           <button
             className="navbar-toggler"
@@ -91,7 +135,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="nav-link">Home</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
+              <li className="nav-item dropdown" onMouseEnter={handleDropdown} onMouseLeave={handleCompanyRemove}>
                 <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
@@ -99,46 +143,50 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
+                  onMouseEnter={(e)=>handleDropdown(e)} 
                 >
                   Company
                 </span>
-                <div className="dropdown-menu">
+                {isCompany&&
+                <div className="dropdown-menu" onMouseLeave={handleCompanyRemove}>
                   <Link href="/about">
                     <a className="dropdown-item">About</a>
                   </Link>
                   <Link href="/whyUs">
                     <a className="dropdown-item">Why Us</a>
                   </Link>
-                </div>
+                </div>}
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
-                <span
+
+              <li className="nav-item dropdown" onMouseEnter={(e)=>handleDropdown(e)} onMouseLeave={handleRemove} >
+              <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
                   href="#"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
+                  onMouseEnter={(e)=>handleDropdown(e)} 
                 >
                   Collection
                 </span>
-                <div className="dropdown-menu">
-                  <Link href="/CeramicTiles">
-                    <a className="dropdown-item">Ceramic Tiles</a>
-                  </Link>
-                  {/* <li className="nav-item dropdown" >
-                  <span
+                {isHovered&&<>
+                <div className="dropdown-menu" onMouseLeave={handleMouseLeave}>
+                <span
                   className="dropdown-item"
                   data-toggle="dropdown"
                   href="#"
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
+                  onMouseEnter={handleMouseEnter} 
+                  onMouseLeave={(e)=>handleMouseLeave(e)}
                 >
                   Ceramic Tiles
                 </span>
-                <div className="dropdown-menu">
-                  <Link href="/WallTiles">
+                {open&&
+                <div className="dropdown-menu1" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
+                  <Link href="/WallTiles" >
                     <a className="dropdown-item">Wall Tiles</a>
                   </Link>
                   <Link href="/FloorTiles">
@@ -156,9 +204,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                    <Link href="/NanoTiles">
                     <a className="dropdown-item">Nano Tiles</a>
                    </Link>
-                </div>
-                </li> */}
-                {/* <li className="nav-item dropdown" >
+                </div>}
                   <span
                   className="dropdown-item"
                   data-toggle="dropdown"
@@ -166,10 +212,13 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
+                  onMouseEnter={handleSanitaryEnter} 
+                  onMouseLeave={(e)=>handleSanitaryLeave(e)}
                 >
                   Sanitary Ware
                 </span>
-                <div className="dropdown-menu">
+                {sanaitary &&
+                <div className="dropdown-menu1" onMouseEnter={handleSanitaryEnter} onMouseLeave={handleSanitaryLeave}>
                   <Link href="/WashBasin">
                     <a className="dropdown-item">Wash Basin</a>
                   </Link>
@@ -188,11 +237,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                    <Link href="/accessories">
                     <a className="dropdown-item">accessories</a>
                    </Link>
-                </div>
-                </li> */}
-                  <Link href="/SanitaryWare">
-                    <a className="dropdown-item">Sanitary Ware</a>
-                  </Link>
+                </div>}
                   <Link href="/Spices">
                     <a className="dropdown-item">Spices</a>
                    </Link>
@@ -209,10 +254,10 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                     <a className="dropdown-item"> PVC & Unsolicited pipes</a>
                    </Link>
                 </div>
+                </>}
               </li>
               
               <li className="nav-item">
-                {/* <Link href="/wallTiles"> */}
                 <Link href="/Catalouges">
                   <a className="nav-link">Catalogue</a>
                 </Link>
@@ -222,7 +267,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   <a className="nav-link">Export</a>
                 </Link>
               </li>
-              <li className="nav-item dropdown" onClick={handleDropdown}>
+              <li className="nav-item dropdown" onMouseEnter={handleDropdown} onMouseLeave={handleUtliesRemove}>
                 <span
                   className="nav-link dropdown-toggle"
                   data-toggle="dropdown"
@@ -230,17 +275,19 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   role="button"
                   aria-haspopup="true"
                   aria-expanded="false"
+                  onMouseEnter={(e)=>handleDropdown(e)} 
                 >
                  Utilies
                 </span>
-                <div className="dropdown-menu">
+                {isCompany&&
+                <div className="dropdown-menu" onMouseLeave={handleUtliesRemove}>
                   <Link href="/tilesCalculator">
                     <a className="dropdown-item">Tiles calculator</a>
                   </Link>
                   <Link href="/packing-details">
                     <a className="dropdown-item">Packing Details</a>
                   </Link>
-                </div>
+                </div>}
               </li>
               <li className="nav-item">
                 <Link href="/contact">
