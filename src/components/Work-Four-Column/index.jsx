@@ -3,12 +3,13 @@ import React from "react";
 import Link from "next/link";
 import initIsotope from "../../common/initIsotope";
 
-const WorkFourColumn = () => {
+export  const WorkFourColumn = () => {
   React.useEffect(() => {
     setTimeout(() => {
       if (window.Isotope) initIsotope();
     }, 1000);
   }, []);
+  
   return (
     <>
       <section className="works filter-img four-col section-padding">
@@ -156,5 +157,3 @@ const WorkFourColumn = () => {
     </>
   );
 };
-
-export default WorkFourColumn;

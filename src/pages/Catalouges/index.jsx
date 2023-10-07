@@ -13,7 +13,7 @@ const CatalougeDetails = () => {
         title="Catalouge"
         fullPath={[
           { id: 1, name: "homes", url: "/" },
-          { id: 2, name: "Catalouges", url: "/Catalouges" },
+          { id: 2, name: "Catalouges", url: "/catalouges" },
         ]}
         image="/assets/img/exports.jpg"
       />

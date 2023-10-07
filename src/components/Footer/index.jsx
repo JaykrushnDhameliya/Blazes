@@ -15,7 +15,7 @@ const Footer = ({ classText }) => {
         <div className="row">
           <div className="col-lg-4">
             <div className="item md-mb50">
-              <div className="title" data-aos="flip-right"  data-aos-duration="3000">
+              <div className="title" data-aos="fade-up"  data-aos-duration="1000">
                 <h5>Contact Us</h5>
               </div>
               <ul>
@@ -46,7 +46,7 @@ const Footer = ({ classText }) => {
           </div>
           <div className="col-lg-4">
             <div className="item md-mb50">
-              <div className="title" data-aos="flip-right"  data-aos-duration="3000">
+              <div className="title" data-aos="fade-up"  data-aos-duration="1000">
                 <h5>Recent News</h5>
               </div>
               <ul>
@@ -102,7 +102,7 @@ const Footer = ({ classText }) => {
           </div>
           <div className="col-lg-4">
             <div className="item" >
-              <div className="logo" data-aos="flip-right"  data-aos-duration="3000">
+              <div className="logo" data-aos="fade-up"  data-aos-duration="1000">
                 <img src="/assets/img/logo-light.png" alt="" />
               </div>
               <div className="social" data-aos="fade-up">

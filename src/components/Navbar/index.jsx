@@ -186,22 +186,22 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </span>
                 {open&&
                 <div className="dropdown-menu1" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave}>
-                  <Link href="/WallTiles" >
+                  <Link href="/wallTiles" >
                     <a className="dropdown-item">Wall Tiles</a>
                   </Link>
-                  <Link href="/FloorTiles">
+                  <Link href="/floorTiles">
                     <a className="dropdown-item">Floor Tiles</a>
                   </Link>
-                  <Link href="/Kitchen-Living Tiles">
+                  <Link href="/kitchen-Living Tiles">
                     <a className="dropdown-item">Kitchen & Living Tiles</a>
                    </Link>
-                   <Link href="/ParkingTiles">
+                   <Link href="/parkingTiles">
                     <a className="dropdown-item">Parking Tiles</a>
                    </Link>
-                   <Link href="/SubwayTiles">
+                   <Link href="/subwayTiles">
                     <a className="dropdown-item">Subway Tiles</a>
                    </Link>
-                   <Link href="/NanoTiles">
+                   <Link href="/nanoTiles">
                     <a className="dropdown-item">Nano Tiles</a>
                    </Link>
                 </div>}
@@ -219,51 +219,51 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </span>
                 {sanaitary &&
                 <div className="dropdown-menu1" onMouseEnter={handleSanitaryEnter} onMouseLeave={handleSanitaryLeave}>
-                  <Link href="/WashBasin">
+                  <Link href="/washBasin">
                     <a className="dropdown-item">Wash Basin</a>
                   </Link>
-                  <Link href="/OnePiece">
+                  <Link href="/0nePiece">
                     <a className="dropdown-item">One Piece</a>
                   </Link>
-                  <Link href="/TwoPiece">
+                  <Link href="/twoPiece">
                     <a className="dropdown-item">Two Piece / Close Couple</a>
                    </Link>
-                   <Link href="/PanUrinal">
+                   <Link href="/panUrinal">
                     <a className="dropdown-item">Pan & Urinal</a>
                    </Link>
-                   <Link href="/Water Closet">
+                   <Link href="/water-closet">
                     <a className="dropdown-item">Water Closet</a>
                    </Link>
                    <Link href="/accessories">
                     <a className="dropdown-item">accessories</a>
                    </Link>
                 </div>}
-                  <Link href="/Spices">
+                  <Link href="/spices">
                     <a className="dropdown-item">Spices</a>
                    </Link>
-                  <Link href="/Pulses">
+                  <Link href="/pulses">
                     <a className="dropdown-item">Pulses</a>
                    </Link>
-                   <Link href="/Flour">
+                   <Link href="/flour">
                     <a className="dropdown-item">Flour</a>
                    </Link>
-                   <Link href="/Edible Oil">
+                   <Link href="/edible-oil">
                     <a className="dropdown-item">Edible Oil</a>
                    </Link>
-                   <Link href="/PVC-Pipes">
-                    <a className="dropdown-item"> PVC & Unsolicited pipes</a>
+                   <Link href="/pvc-pipes">
+                    <a className="dropdown-item">PVC & Unsolicited pipes</a>
                    </Link>
                 </div>
                 </>}
               </li>
               
               <li className="nav-item">
-                <Link href="/Catalouges">
+                <Link href="/catalouges">
                   <a className="nav-link">Catalogue</a>
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/Exports">
+                <Link href="/exports">
                   <a className="nav-link">Export</a>
                 </Link>
               </li>
