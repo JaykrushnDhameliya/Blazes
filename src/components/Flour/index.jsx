@@ -67,6 +67,7 @@ export const Flour = () => {
                 >
                   <div
                     className="item"
+                    key={item.name}
                     style={{
                       backgroundColor: "transparent",
                     }}

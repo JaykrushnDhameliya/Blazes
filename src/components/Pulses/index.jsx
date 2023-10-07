@@ -65,6 +65,7 @@ export const Pulses = () => {
             {Pulses.map((item) => {
               return (
                 <div
+                key={item.name}
                   className="col-lg-4 col-md-6 items"
                   style={{ margin: "25px 0" }}
                 >
@@ -105,6 +106,7 @@ export const Pulses = () => {
           <div className="row gallery">
             <div
               className="col-lg-12 col-md-12 items"
+              key={item.name}
               style={{
                 margin: "40px 0px",
                 display: "flex",

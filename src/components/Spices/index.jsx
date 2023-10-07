@@ -64,6 +64,7 @@ export const Spices = () => {
               return (
                 <div
                   className="col-lg-4 col-md-6 items"
+                  key={item.name}
                   style={{
                     margin: "40px 0px",
                     display: "flex",

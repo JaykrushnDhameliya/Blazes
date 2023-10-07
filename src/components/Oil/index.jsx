@@ -65,6 +65,7 @@ export const Oil = () => {
             {Oil.map((item) => {
               return (
                 <div
+                  key={item.name}
                   className="col-lg-4 col-md-6 items"
                   style={{ margin: "25px 0" }}
                 >
