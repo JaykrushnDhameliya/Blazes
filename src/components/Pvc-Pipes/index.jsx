@@ -64,28 +64,17 @@ export const PvcPipe = () => {
                 <div
                   className="col-lg-4 col-md-6 items"
                   style={{ margin: "25px 0" }}
+                  key={item.name}
                 >
                   <div
                     className="item"
-                    style={{
-                      // height: "300px",
-                      // minWidth: "350px",
-                      // objectFit: "cover",
-                      // width: "100%",
-                      // backgroundColor: "transparent",
-                    }}
                   >
                     <div className="img">
                       <img
                         src={item.img}
                         alt=""
                         style={{
-                          // height: "300px",
-                          // minWidth: "350px",
-                          // objectFit: "cover",
-                          // width: "100%",
                           height: "32vh",
-
                         }}
                       />
                     </div>

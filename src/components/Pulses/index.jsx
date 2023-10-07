@@ -106,7 +106,6 @@ export const Pulses = () => {
           <div className="row gallery">
             <div
               className="col-lg-12 col-md-12 items"
-              key={item.name}
               style={{
                 margin: "40px 0px",
                 display: "flex",

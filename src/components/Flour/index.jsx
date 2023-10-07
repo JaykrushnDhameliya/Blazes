@@ -64,10 +64,10 @@ export const Flour = () => {
                 <div
                   className="col-lg-4 col-md-6  col-lg-offset-2 items"
                   style={{ margin: "25px 0" }}
+                  key={item.name}
                 >
                   <div
                     className="item"
-                    key={item.name}
                     style={{
                       backgroundColor: "transparent",
                     }}
