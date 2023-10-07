@@ -127,8 +127,8 @@ export const Flour = () => {
                           creations. From crafting delicate pastries and fluffy
                           bread to thickening sauces and batters, its fine
                           powdery texture and neutral flavor make it a culinary
-                          cornerstone. Whether you're a seasoned chef or a
-                          novice home cook, flour's universal presence in
+                          cornerstone. Whether you&apos;re a seasoned chef or a
+                          novice home cook, flour&apos;s universal presence in
                           kitchens worldwide ensures it plays an indispensable
                           role in satisfying our appetites and culinary
                           ambitions.

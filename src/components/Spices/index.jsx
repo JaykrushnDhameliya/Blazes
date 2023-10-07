@@ -137,7 +137,7 @@ export const Spices = () => {
                           from various parts of plants, such as seeds, bark,
                           roots, or leaves, and are known for their ability to
                           transform ordinary ingredients into extraordinary
-                          culinary experiences. Whether it's the warmth of
+                          culinary experiences. Whether it&apos;s the warmth of
                           cinnamon, the heat of chili peppers, the earthiness of
                           cumin, or the complex flavors of garam masala, spices
                           have the power to elevate the simplest meals into

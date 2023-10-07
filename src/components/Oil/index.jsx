@@ -133,7 +133,7 @@ export const Oil = () => {
                           Oil is a versatile and essential natural resource that
                           plays a pivotal role in various aspects of modern
                           life. It is a viscous, hydrophobic liquid derived from
-                          geological processes deep within the Earth's crust,
+                          geological processes deep within the Earth&apos;s crust,
                           typically found in underground reservoirs. Crude oil,
                           as it is commonly referred to, serves as the primary
                           source for the production of various petroleum-based

@@ -134,7 +134,7 @@ export const PvcPipe = () => {
                           for their durability, corrosion resistance, and
                           affordability. PVC pipes are lightweight and easy to
                           install, making them a popular choice in the
-                          construction industry. However, it's important to note
+                          construction industry. However, it&apos;s important to note
                           that PVC pipes can have environmental concerns, as
                           they are made from non-renewable resources and can
                           release toxic chemicals when exposed to high
