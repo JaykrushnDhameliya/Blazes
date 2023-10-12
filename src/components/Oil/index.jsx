@@ -1,45 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
-import React,{useState,useEffect } from "react";
+import React,{useEffect } from "react";
 import initIsotope from "../../common/initIsotope";
 
 export const Oil = () => {
-  const [text, setText] = useState('');
-  const [isAdding, setIsAdding] = useState(true);
-
-  useEffect(() => {
-    let timer;
-    
-    const addText = () => {
-      if (isAdding) {
-        setText((prevText) => {
-          if (prevText.length < message.length) {
-            return message.slice(0, prevText.length + 1);
-          } else {
-            setIsAdding(false);
-            return prevText;
-          }
-        });
-      } else {
-        setText((prevText) => {
-          if (prevText.length > 0) {
-            return prevText.slice(0, prevText.length - 1);
-          } else {
-            setIsAdding(true);
-            return prevText;
-          }
-        });
-      }
-    };
-
-    const message = 'Edible Oil'; 
-    const interval = 200;
-
-    timer = setInterval(addText, interval);
-
-    return () => {
-      clearInterval(timer);
-    };
-  }, [isAdding]);
 
   useEffect(() => {
     setTimeout(() => {
@@ -58,7 +21,7 @@ export const Oil = () => {
     <>
       <section className="works filter-img three-col section-padding">
       <div className="auto-type">
-          <span>{text}</span>
+          <h1>Edible Oil</h1>
         </div>
         <div className="container">
           <div className="row gallery">

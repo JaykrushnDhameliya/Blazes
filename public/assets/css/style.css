@@ -5078,7 +5078,6 @@ hr {
   font-size: xxx-large;
   font-family: math;
   text-align: center;
-  text-shadow: 3px 1px 4px #5200f3;
 }
 @media screen and (max-width: 992px) {
   .works .item {
