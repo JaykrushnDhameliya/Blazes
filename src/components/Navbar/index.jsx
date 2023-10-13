@@ -260,7 +260,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
               </li>
               
               <li className="nav-item">
-                <Link href="/catalouges">
+                <Link href="/catalouge">
                   <a className="nav-link">Catalogue</a>
                 </Link>
               </li>
@@ -278,6 +278,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   aria-haspopup="true"
                   aria-expanded="false"
                   onMouseEnter={(e)=>handleDropdown(e)} 
+                  onClick={(e)=>handleDropdown(e)} 
                 >
                  Utilies
                 </span>
