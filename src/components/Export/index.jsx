@@ -3,7 +3,7 @@ import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-const Exports = () => {
+const Export = () => {
    useEffect(() => {
       AOS.init();
       AOS.refresh();
@@ -93,4 +93,4 @@ const Exports = () => {
   );
 };
 
-export default Exports;
+export default Export;

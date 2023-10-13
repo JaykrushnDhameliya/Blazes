@@ -1,25 +1,25 @@
 import React from "react";
 import MainLayout from "../../layouts/main";
 import PageHeader from "../../components/Page-header";
-import Exports from "../../components/Exports";
+import ExportPage from "../../components/Export";
 
-const ExportDetails = () => {
+const Export = () => {
   React.useEffect(() => {
     document.querySelector('body').classList.add('index3')
   }, [])
   return (
     <MainLayout>
       <PageHeader
-        title="Exports"
+        title="Export"
         fullPath={[
           { id: 1, name: "homes", url: "/" },
-          { id: 2, name: "Exports", url: "/exports" },
+          { id: 2, name: "Export", url: "/export" },
         ]}
         image="/assets/img/exports.jpg"
       />
-      <Exports />
+      <ExportPage />
     </MainLayout>
   );
 };
 
-export default ExportDetails;
+export default Export;

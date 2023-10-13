@@ -144,6 +144,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   aria-haspopup="true"
                   aria-expanded="false"
                   onMouseEnter={(e)=>handleDropdown(e)} 
+                  onClick={(e)=>handleDropdown(e)} 
                 >
                   Company
                 </span>
@@ -167,6 +168,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   aria-haspopup="true"
                   aria-expanded="false"
                   onMouseEnter={(e)=>handleDropdown(e)} 
+                  onClick={(e)=>handleDropdown(e)} 
                 >
                   Collection
                 </span>
@@ -263,7 +265,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="/exports">
+                <Link href="/export">
                   <a className="nav-link">Export</a>
                 </Link>
               </li>
