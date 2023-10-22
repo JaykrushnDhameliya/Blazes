@@ -220,25 +220,31 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   Sanitary Ware
                 </span>
                 {sanaitary &&
-                <div className="dropdown-menu1" onMouseEnter={handleSanitaryEnter} onMouseLeave={handleSanitaryLeave}>
-                  <Link href="/washBasin">
+                <div className="dropdown-menu2" onMouseEnter={handleSanitaryEnter} onMouseLeave={handleSanitaryLeave}>
+                  <Link href="/wash-basin">
                     <a className="dropdown-item">Wash Basin</a>
                   </Link>
-                  <Link href="/0nePiece">
+                  <Link href="/one-piece">
                     <a className="dropdown-item">One Piece</a>
                   </Link>
-                  <Link href="/twoPiece">
+                  {/* <Link href="/twoPiece">
                     <a className="dropdown-item">Two Piece / Close Couple</a>
+                   </Link> */}
+                   <Link href="/table-top">
+                    <a className="dropdown-item">Table Top</a>
                    </Link>
-                   <Link href="/panUrinal">
+                   <Link href="/pan-urinal">
                     <a className="dropdown-item">Pan & Urinal</a>
                    </Link>
                    <Link href="/water-closet">
                     <a className="dropdown-item">Water Closet</a>
                    </Link>
-                   <Link href="/accessories">
-                    <a className="dropdown-item">accessories</a>
+                   <Link href="/wall-hung">
+                    <a className="dropdown-item">WallHung</a>
                    </Link>
+                   {/* <Link href="/accessories">
+                    <a className="dropdown-item">accessories</a>
+                   </Link> */}
                 </div>}
                   <Link href="/spices">
                     <a className="dropdown-item">Spices</a>
