@@ -2395,6 +2395,9 @@ body {
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
+.works .item-border:hover:after{
+  border-radius: 50px !important;
+}
 @keyframes works-item-hover {
   0%   {left:0px; top:0px;}
   50%  {left:0px; top:35px;}
@@ -5071,6 +5074,14 @@ hr {
   background-color: #212121;
   margin: 0 0px;
 }
+.dropdown-menu2{
+  position: absolute;
+  top: 15px;
+  right: -140px;
+  padding: 0 30px;
+  background-color: #212121;
+  margin: 0 0px;
+}
 .auto-type{
   color: #dd5826;
   font-weight: bold;
@@ -5084,6 +5095,10 @@ hr {
     margin: 30px;
   }
   .dropdown-menu1{
+    position:  inherit;
+    border-top: 2px solid #dd5826 !important;
+  }
+  .dropdown-menu2{
     position:  inherit;
     border-top: 2px solid #dd5826 !important;
   }
