@@ -21,25 +21,31 @@ import React from "react";
             </div>
           </div>
           <div className="col-lg-7 img">
-            <img src="/assets/img/about01.jpg" alt="" />
+            <img src="/assets/img/Moodboard.jpg" alt="" />
 
             <div className="feat mt-30">
               <div className="item">
                 <div>
                   <h5>01</h5>
-                  <h6>Architecture</h6>
+                  <h6>Ceramic tiles</h6>
                 </div>
               </div>
               <div className="item">
                 <div>
                   <h5>02</h5>
-                  <h6>Interior Design</h6>
+                  <h6>Sanitaryware</h6>
                 </div>
               </div>
               <div className="item">
                 <div>
                   <h5>03</h5>
-                  <h6>3D Modeling</h6>
+                  <h6>Pulses</h6>
+                </div>
+              </div>
+              <div className="item">
+                <div>
+                  <h5>04</h5>
+                  <h6>Rice</h6>
                 </div>
               </div>
             </div>

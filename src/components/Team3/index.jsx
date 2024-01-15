@@ -2,6 +2,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Link from "next/link";
 
 const Team3 = () => {
   useEffect(() => {
@@ -19,8 +20,9 @@ const Team3 = () => {
         <div className="row">
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
+            <Link href="/wash-basin">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="/assets/img/team/product6.jpg" alt="" className="productImg" />
+                <img src="/assets/img/team/Tiles.jpg" alt="" className="productImg" />
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -50,16 +52,18 @@ const Team3 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>First Product</h6>
-                  <span>Food Manager</span>
+                  <h6>Ceramic Tiles</h6>
+                  <span>Product Manager</span>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir md-mb50">
+            <Link href="/wash-basin">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="/assets/img/team/product2.jpg" alt="" className="productImg"/>
+                <img src="/assets/img/team/Sanitaryware.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -89,16 +93,18 @@ const Team3 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Second Product</h6>
-                  <span>Food Manager</span>
+                  <h6>Sanitaryware</h6>
+                  <span>Product Manager</span>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
+            <Link href="/pulses">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="/assets/img/team/product3.jpg" alt="" className="productImg"/>
+                <img src="/assets/img/team/Pulses.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -128,16 +134,18 @@ const Team3 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Third Product</h6>
-                  <span>Food Manager</span>
+                  <h6>Pulses</h6>
+                  <span>Product Manager</span>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
+            <Link href="/pulses">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
-                <img src="/assets/img/team/product4.jpg" alt="" className="productImg"/>
+                <img src="/assets/img/team/Rice.jpg" alt="" className="productImg"/>
                 <div id="circle">
                   <svg
                     version="1.1"
@@ -167,10 +175,11 @@ const Team3 = () => {
                   </svg>
                 </div>
                 <div className="info">
-                  <h6>Fourth Product</h6>
-                  <span>Food Manager</span>
+                  <h6>Rice</h6>
+                  <span>Product Manager</span>
                 </div>
               </div>
+              </Link>
             </div>
           </div>
         </div>
