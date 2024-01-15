@@ -4,7 +4,7 @@ import "react-modal-video/css/modal-video.css";
 
 const Video2 = () => {
   React.useEffect(() => {
-    console.clear();
+    console.clear(); 
   }, []);
   const [isOpen, setOpen] = React.useState(false);
   return (
