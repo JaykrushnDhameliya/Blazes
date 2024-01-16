@@ -14,10 +14,10 @@ const Video2 = () => {
     >
       {typeof window !== "undefined" && (
         <ModalVideo
-          channel="vimeo"
+          channel= "custom"
+          url='/assets/img/video1.mp4'
           autoplay
           isOpen={isOpen}
-          videoId="127203262"
           onClose={() => setOpen(false)}
         />
       )}
