@@ -91,12 +91,12 @@ export const NonBasmatis = () => {
                       <hr className="sep-red" />
                       <ul className="whyus-ul-li whyus">
                         <p>
-                          "Non-Basmati" refers to a category of rice that does
+                        &quot;Non-Basmati&quot; refers to a category of rice that does
                           not belong to the Basmati variety. Basmati rice is a
                           specific type of long-grain aromatic rice known for
                           its distinct fragrance, elongated grains, and fluffy
                           texture when cooked. Non-Basmati rice, on the other
-                          hand, encompasses various varieties of rice that don't
+                          hand, encompasses various varieties of rice that don&apos;t
                           meet the criteria to be classified as Basmati.
                         </p>
                       </ul>
