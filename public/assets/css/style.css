@@ -5082,6 +5082,22 @@ hr {
   background-color: #212121;
   margin: 0 0px;
 }
+.dropdown-menu3{
+  position: absolute;
+  top: 85px;
+  right: -140px;
+  padding: 0 30px;
+  background-color: #212121;
+  margin: 0 0px;
+}
+.dropdown-menu4{
+  position: absolute;
+  top: 125px;
+  right: -140px;
+  padding: 0 30px;
+  background-color: #212121;
+  margin: 0 0px;
+}
 .auto-type{
   color: #dd5826;
   font-weight: bold;
@@ -5099,6 +5115,14 @@ hr {
     border-top: 2px solid #dd5826 !important;
   }
   .dropdown-menu2{
+    position:  inherit;
+    border-top: 2px solid #dd5826 !important;
+  }
+  .dropdown-menu3{
+    position:  inherit;
+    border-top: 2px solid #dd5826 !important;
+  }
+  .dropdown-menu4{
     position:  inherit;
     border-top: 2px solid #dd5826 !important;
   }

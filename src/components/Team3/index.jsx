@@ -102,7 +102,7 @@ const Team3 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir sm-mb50">
-            <Link href="/pulses">
+            <Link href="/toor-dal">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/Pulses.jpg" alt="" className="productImg"/>
                 <div id="circle">
@@ -143,7 +143,7 @@ const Team3 = () => {
           </div>
           <div className="col-lg-3 col-md-6">
             <div className="item cir">
-            <Link href="/pulses">
+            <Link href="/basmati">
               <div className="img" data-aos="zoom-in" data-aos-duration="2000">
                 <img src="/assets/img/team/Rice.jpg" alt="" className="productImg"/>
                 <div id="circle">

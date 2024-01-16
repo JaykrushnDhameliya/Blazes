@@ -8,9 +8,12 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const scriptLoaded = React.useRef(false);
   const[open,setOpen]=useState(false)
   const[sanaitary,setSanatary]=useState(false)
+  const[pulses,setPulses]=useState(false)
+  const[rice,setRice]=useState(false)
+  
   const [isHovered, setIsHovered] = useState(false);
   const [isCompany, setIsCompany] = useState(false);
-
+  
   const handleHover = (e) => {
     setIsHovered(true);
   };
@@ -34,7 +37,21 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
   const handleSanitaryLeave = () => {
     setSanatary(false);
   };
+  const handlePulsesEnter = () => {
+    setPulses(true);
+  };
 
+  const handlePulsesLeave = () => {
+    setPulses(false);
+  };
+  const handleRiceEnter = () => {
+    setRice(true);
+  };
+
+  const handleRiceLeave = () => {
+    setRice(false);
+  };
+  
   const handleCompanyHover = (e) => {
     setIsCompany(true);
   };
@@ -245,6 +262,51 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                    {/* <Link href="/accessories">
                     <a className="dropdown-item">accessories</a>
                    </Link> */}
+                </div>}
+
+                <span
+                  className="dropdown-item"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  onMouseEnter={handlePulsesEnter} 
+                  onMouseLeave={(e)=>handlePulsesLeave(e)}
+                >
+                  Pules
+                </span>
+                {pulses &&
+                <div className="dropdown-menu3" onMouseEnter={handlePulsesEnter} onMouseLeave={handlePulsesLeave}>
+                  <Link href="/toor-dal">
+                    <a className="dropdown-item">Toor Dal</a>
+                  </Link>
+                  <Link href="/masoor-dal">
+                    <a className="dropdown-item">Masoor Dal</a>
+                  </Link>
+                 
+                </div>}
+                <span
+                  className="dropdown-item"
+                  data-toggle="dropdown"
+                  href="#"
+                  role="button"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                  onMouseEnter={handleRiceEnter} 
+                  onMouseLeave={(e)=>handleRiceLeave(e)}
+                >
+                  Rice
+                </span>
+                {rice &&
+                <div className="dropdown-menu4" onMouseEnter={handleRiceEnter} onMouseLeave={handleRiceLeave}>
+                  <Link href="/basmati">
+                    <a className="dropdown-item">Basmati</a>
+                  </Link>
+                  <Link href="/non-basmati">
+                    <a className="dropdown-item">Non Basmati</a>
+                  </Link>
+                 
                 </div>}
                   <Link href="/spices">
                     <a className="dropdown-item">Spices</a>
