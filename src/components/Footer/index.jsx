@@ -16,7 +16,7 @@ const Footer = ({ classText }) => {
           <div className="col-lg-4">
             <div className="item md-mb50">
               <div className="title" data-aos="fade-up"  data-aos-duration="1000">
-                <h5>Contact Us</h5>
+                <h5>Address</h5>
               </div>
               <ul>
                 <li>
@@ -27,6 +27,21 @@ const Footer = ({ classText }) => {
                   </div>
                 </li>
                 <li>
+                  <div className="subscribe" data-aos="fade-up">
+                    <input type="text" placeholder="Type Your Email" />
+                    <span className="subs pe-7s-paper-plane"></span>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className="col-lg-4">
+            <div className="item md-mb50">
+              <div className="title" data-aos="fade-up"  data-aos-duration="1000">
+                <h5>Contact Us</h5>
+              </div>
+              <ul>
+              <li>
                   <span className="icon pe-7s-mail" data-aos="fade-up"></span>
                   <div className="cont" data-aos="fade-up">
                     <h6>Email Us</h6>
@@ -41,16 +56,7 @@ const Footer = ({ classText }) => {
                     <p>+91 99098 44111 | +91 90990 47677</p>
                   </div>
                 </li>
-              </ul>
-            </div>
-          </div>
-          <div className="col-lg-4">
-            <div className="item md-mb50">
-              <div className="title" data-aos="fade-up"  data-aos-duration="1000">
-                <h5>Recent News</h5>
-              </div>
-              <ul>
-                <li>
+                {/* <li>
                   <div className="img" data-aos="fade-up">
                     <Link href="/packing-details">
                       <a>
@@ -90,13 +96,7 @@ const Footer = ({ classText }) => {
                     </Link>
                     <span className="date">14 Jan 2022</span>
                   </div>
-                </li>
-                <li>
-                  <div className="subscribe" data-aos="fade-up">
-                    <input type="text" placeholder="Type Your Email" />
-                    <span className="subs pe-7s-paper-plane"></span>
-                  </div>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>

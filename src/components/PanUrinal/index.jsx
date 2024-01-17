@@ -42,7 +42,7 @@ export const PanUrinal = () => {
                         src={item.img}
                         alt=""
                         style={{
-                          height: "32vh",
+                          height: "300px",
                           borderRadius:'50px'
                         }}
                       />

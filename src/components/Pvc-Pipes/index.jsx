@@ -37,7 +37,7 @@ export const PvcPipe = () => {
                         src={item.img}
                         alt=""
                         style={{
-                          height: "32vh",
+                          height: "300px",
                         }}
                       />
                     </div>

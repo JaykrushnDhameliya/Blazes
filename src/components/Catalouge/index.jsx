@@ -15,12 +15,12 @@ const Catalouge = () => {
     AOS.refresh();
   }, []);
   const Ceramic=[
-    {name:'300x600mm (Matt Finish)',src:'/assets/Ceramic/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATT.pdf?alt=media&token=3c3414d8-acab-4125-b5ca-d68b88d217e1",pdfName:'MATT.pdf'},
-    {name:'300x600mm (Glossy Finish)',src:'/assets/Ceramic/2.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYFinish.pdf?alt=media&token=c19c8ef4-6e20-4977-8448-6996790f2d26',pdfName:'GLOSSYFinish.pdf'},
-    {name:'300x600mm (Elevation Series)',src:'/assets/Ceramic/3.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYELEVATION.pdf?alt=media&token=4bca23ae-8e8b-4119-9a87-e2cdb05d826a',pdfName:'GLOSSYELEVATION.pdf'},
-    {name:'300x600mm Digital Wall Tiles (Elevation Series)',src:'/assets/Ceramic/4.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/ELEVATION.pdf?alt=media&token=a1fae88d-e600-4a31-a754-dc1c4ac55144',pdfName:'ELEVATION.pdf'},
-    {name:'300x600mm Digital Wall Tiles(Glossy Finish)',src:'/assets/Ceramic/5.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/DigitalGlossyFinish.pdf?alt=media&token=6d58d1ec-584d-4582-8212-21099aefc28c',pdfName:'DigitalGlossyFinish.pdf'},
-    {name:'300x600mm Digital Wall Tiles(Matt Elevation)',src:'/assets/Ceramic/6.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATTELEVATION.pdf?alt=media&token=a2a39e7e-41ee-4183-bda1-a208bf940c19',pdfName:'MATTELEVATION.pdf'},
+    {name:'300x600mm (Elevation Collection)',src:'/assets/Ceramic/E.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATT.pdf?alt=media&token=3c3414d8-acab-4125-b5ca-d68b88d217e1",pdfName:'MATT.pdf'},
+    {name:'300x600mm (Kitchen Collection)',src:'/assets/Ceramic/K.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYFinish.pdf?alt=media&token=c19c8ef4-6e20-4977-8448-6996790f2d26',pdfName:'GLOSSYFinish.pdf'},
+    {name:'300x600mm (Matt Collection)',src:'/assets/Ceramic/M.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/GLOSSYELEVATION.pdf?alt=media&token=4bca23ae-8e8b-4119-9a87-e2cdb05d826a',pdfName:'GLOSSYELEVATION.pdf'},
+    {name:'300x600mm (Premimum Collection)',src:'/assets/Ceramic/Sanitaryware.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/ELEVATION.pdf?alt=media&token=a1fae88d-e600-4a31-a754-dc1c4ac55144',pdfName:'ELEVATION.pdf'},
+    {name:'300x600mm (Standard Collection)',src:'/assets/Ceramic/st.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/DigitalGlossyFinish.pdf?alt=media&token=6d58d1ec-584d-4582-8212-21099aefc28c',pdfName:'DigitalGlossyFinish.pdf'},
+    // {name:'300x600mm Digital Wall Tiles(Matt Elevation)',src:'/assets/Ceramic/6.jpg',pdf:'https://firebasestorage.googleapis.com/v0/b/jigu-10f4b.appspot.com/o/MATTELEVATION.pdf?alt=media&token=a2a39e7e-41ee-4183-bda1-a208bf940c19',pdfName:'MATTELEVATION.pdf'},
   ]
   const Senaric=[
     {name:'300x600mm (GLOSSY(1001-1300))',src:'/assets/Sanitary/1.jpg',pdf:"https://firebasestorage.googleapis.com/v0/b/blaze-f3c9e.appspot.com/o/GLOSSY(1001-1300).pdf?alt=media&token=b4ca0d9b-1f65-4b8e-887a-8f134b2c2a1d",pdfName:'GLOSSY(1001-1300).pdf'},
@@ -60,7 +60,7 @@ const Catalouge = () => {
             </div>
           </div>
          
-          <div className="row row-equal-height justify-content-center d-flex">
+          <div className="row row-equal-height d-flex">
           {Ceramic.map(( item, i) => {
             return(
               <>
@@ -89,7 +89,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                      <a className="cat-name" href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -113,7 +113,7 @@ const Catalouge = () => {
               </div>
             </div>
           </div>
-          <div className="row row-equal-height justify-content-center d-flex">
+          <div className="row row-equal-height d-flex">
           {Senaric.map(( item, i) => {
             return(
               <>
@@ -142,7 +142,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                      <a className="cat-name" href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -165,7 +165,7 @@ const Catalouge = () => {
               </div>
             </div>
           </div>
-          <div className="row row-equal-height justify-content-center d-flex">
+          <div className="row row-equal-height d-flex">
           {Agriculture.map(( item, i) => {
             return(
               <>
@@ -194,7 +194,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                      <a className="cat-name" href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>
@@ -217,7 +217,7 @@ const Catalouge = () => {
               </div>
             </div>
           </div>
-          <div className="row row-equal-height justify-content-center d-flex">
+          <div className="row row-equal-height d-flex">
           {Food.map(( item, i) => {
             return(
               <>
@@ -246,7 +246,7 @@ const Catalouge = () => {
                   </div>
                   <div className="post-title featured-title">
                     <h3>
-                      <a href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
+                      <a className="cat-name" href={item.pdf} target="_blank" rel="noopener noreferrer">{item.name}</a>
                     </h3>
                   </div>
                 </div>

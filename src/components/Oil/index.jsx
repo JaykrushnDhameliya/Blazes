@@ -47,7 +47,7 @@ export const Oil = () => {
                         src={item.img}
                         alt=""
                         style={{
-                          height: "32vh",
+                          height: "300px",
 
                           // height: "300px",
                           // minWidth: "350px",

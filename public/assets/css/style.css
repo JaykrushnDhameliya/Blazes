@@ -4791,7 +4791,7 @@ hr {
   box-shadow: 0 0 0 0.2rem rgb(24 24 24);
 }
 .productImg{
-  height: 35vh;
+  height: 300px;
 }
 .featured-imagebox-post.style1 {
   border: 10px solid #fff;
@@ -5105,6 +5105,12 @@ hr {
   font-size: xxx-large;
   font-family: math;
   text-align: center;
+}
+.cat-name{
+  white-space: nowrap;
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 @media screen and (max-width: 992px) {
   .works .item {

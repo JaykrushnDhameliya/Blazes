@@ -49,7 +49,7 @@ export const NonBasmatis = () => {
                           // minWidth: "350px",
                           // objectFit: "cover",
                           // width: "100%",
-                          height: "32vh",
+                          height: "300px",
                         }}
                       />
                     </div>

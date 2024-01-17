@@ -308,7 +308,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                   </Link>
                  
                 </div>}
-                  <Link href="/spices">
+                  {/* <Link href="/spices">
                     <a className="dropdown-item">Spices</a>
                    </Link>
                   <Link href="/pulses">
@@ -322,7 +322,7 @@ const Navbar = ({ navbarRef, logoRef, logoClass }) => {
                    </Link>
                    <Link href="/pvc-pipes">
                     <a className="dropdown-item">PVC & Unsolicited pipes</a>
-                   </Link>
+                   </Link> */}
                 </div>
                 </>}
               </li>
